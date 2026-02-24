@@ -1,0 +1,243 @@
+# Add required assembly for Windows Forms
+Add-Type -AssemblyName System.Windows.Forms
+
+# Set up report paths
+$PowershellPath = "C:\temp\Powershell"
+$ReportPath = Join-Path $PowershellPath "Report"
+if((Test-Path $ReportPath) -eq $False) {
+    New-Item -Path $ReportPath -ItemType Directory
+}
+
+# Function to get ACL report
+function Get-ACLReport ($folder, $depth) {
+    $report = @()
+    try {
+        # Get folders based on specified depth
+        $allFolders = @($folder)
+        if ($depth -gt 0) {
+            $currentDepth = 0
+            $foldersToProcess = @($folder)
+            
+            while ($currentDepth -lt $depth) {
+                $newFolders = @()
+                foreach ($f in $foldersToProcess) {
+                    $subFolders = Get-ChildItem -Path $f -Directory | Select-Object -ExpandProperty FullName
+                    $newFolders += $subFolders
+                }
+                $allFolders += $newFolders
+                $foldersToProcess = $newFolders
+                $currentDepth++
+            }
+        }
+
+        foreach ($currentFolder in $allFolders) {
+            try {
+                $accessresult = (get-acl -LiteralPath $currentFolder).access
+                $folderowner = (get-acl -LiteralPath $currentFolder).Owner
+
+                $Identitys = $accessresult.IdentityReference
+                $FileSystemRights = $accessresult.FileSystemRights
+
+                $Identity = ""
+                for($i=0; $i -lt $Identitys.count; $i++) {
+                    $Identity = $Identitys[$i]
+
+                    $FileSystemRight = ""
+                    for($j=0; $j -lt $FileSystemRights[$i].count; $j++) {
+                        $FileSystemRight = $FileSystemRight + ";" + $FileSystemRights[$i]
+                    }
+                    $FileSystemRight = $FileSystemRight.Substring(1, $FileSystemRight.Length-1)
+
+                    $isADAccount = $false
+                    if($Identity.Value.Substring(0,5) -eq "CORP\") {
+                        $IdentityName = $Identity.Value -replace "CORP\\"
+                        $IdentityObject = Get-ADObject -Filter "SamAccountName -eq '$IdentityName'"
+
+                        if(($IdentityObject.objectClass -ne "user") -and ($IdentityName -ne "Domain Users")) {
+                            $GroupMembers = Get-ADGroupMember $IdentityName -recursive | select-object SamAccountName
+                        }
+                        else {
+                            $GroupMembers = $IdentityName
+                        }
+                        $isADAccount = $true
+                    }
+                    else {
+                        $GroupMembers = $Identity.Value
+                    }
+
+                    foreach($GroupMember in $GroupMembers) {
+                        $obj = New-Object -TypeName psobject
+                        if($isADAccount -eq $true) {
+                            if($IdentityObject.objectClass -ne "group") {
+                                $GM = "-"
+                                $DisplayName = (get-aduser $GroupMember -Properties *).Displayname
+                            }
+                            else {
+                                if($GroupMember -eq "Domain Users") {
+                                    $GM = $GroupMember
+                                    $DisplayName = $GroupMember
+                                }
+                                else {
+                                    $GM = $GroupMember.SamAccountName
+                                    $DisplayName = (get-aduser $GroupMember.SamAccountName -Properties *).Displayname
+                                }
+                            }
+                            $ID = $IdentityName
+                        }
+                        else {
+                            $ID = $GroupMember
+                            $GM = "-"
+                            $DisplayName = $GroupMember
+                        }                  
+                        $obj | Add-Member -MemberType NoteProperty -Name FolderPath -Value $currentFolder
+                        $obj | Add-Member -MemberType NoteProperty -Name Identity -Value $ID
+                        $obj | Add-Member -MemberType NoteProperty -Name Member -Value $GM
+                        $obj | Add-Member -MemberType NoteProperty -Name DisplayName -Value $DisplayName
+                        $obj | Add-Member -MemberType NoteProperty -Name AccessRight -Value $FileSystemRight
+                        $obj | Add-Member -MemberType NoteProperty -Name Owner -Value $folderowner
+
+                        $report += $obj
+                    }
+                }
+            }
+            catch {
+                $obj = New-Object -TypeName psobject
+                $obj | Add-Member -MemberType NoteProperty -Name FolderPath -Value $currentFolder
+                $obj | Add-Member -MemberType NoteProperty -Name Identity -Value "error"
+                $obj | Add-Member -MemberType NoteProperty -Name Member -Value "error"
+                $obj | Add-Member -MemberType NoteProperty -Name AccessRight -Value "error"
+                $obj | Add-Member -MemberType NoteProperty -Name Owner -Value "error"
+                $report += $obj
+            }
+        }
+    }
+    catch {
+        $obj = New-Object -TypeName psobject
+        $obj | Add-Member -MemberType NoteProperty -Name FolderPath -Value $folder
+        $obj | Add-Member -MemberType NoteProperty -Name Identity -Value "error"
+        $obj | Add-Member -MemberType NoteProperty -Name Member -Value "error"
+        $obj | Add-Member -MemberType NoteProperty -Name AccessRight -Value "error"
+        $obj | Add-Member -MemberType NoteProperty -Name Owner -Value "error"
+        $report += $obj
+    }
+    return $report
+}
+
+# Function to show file selection dialog
+function Show-FileSelectionDialog {
+    $form = New-Object System.Windows.Forms.Form
+    $form.Text = "Select Paths File"
+    $form.Size = New-Object System.Drawing.Size(500, 200)
+    $form.StartPosition = "CenterScreen"
+
+    $label = New-Object System.Windows.Forms.Label
+    $label.Text = "Select the text file containing folder paths:"
+    $label.AutoSize = $true
+    $label.Location = New-Object System.Drawing.Point(10, 20)
+    $form.Controls.Add($label)
+
+    $textbox = New-Object System.Windows.Forms.TextBox
+    $textbox.Size = New-Object System.Drawing.Size(360, 20)
+    $textbox.Location = New-Object System.Drawing.Point(10, 50)
+    $form.Controls.Add($textbox)
+
+    $browseButton = New-Object System.Windows.Forms.Button
+    $browseButton.Text = "Browse"
+    $browseButton.Location = New-Object System.Drawing.Point(380, 48)
+    $browseButton.Add_Click({
+        $openFileDialog = New-Object System.Windows.Forms.OpenFileDialog
+        $openFileDialog.Filter = "Text files (*.txt)|*.txt"
+        $openFileDialog.Title = "Select Paths File"
+        if ($openFileDialog.ShowDialog() -eq [System.Windows.Forms.DialogResult]::OK) {
+            $textbox.Text = $openFileDialog.FileName
+        }
+    })
+    $form.Controls.Add($browseButton)
+
+    # Add depth control
+    $depthLabel = New-Object System.Windows.Forms.Label
+    $depthLabel.Text = "Scan depth (0 = root only, 1 = one level deep, etc.):"
+    $depthLabel.AutoSize = $true
+    $depthLabel.Location = New-Object System.Drawing.Point(10, 80)
+    $form.Controls.Add($depthLabel)
+
+    $depthNumeric = New-Object System.Windows.Forms.NumericUpDown
+    $depthNumeric.Location = New-Object System.Drawing.Point(10, 100)
+    $depthNumeric.Size = New-Object System.Drawing.Size(100, 20)
+    $depthNumeric.Minimum = 0
+    $depthNumeric.Maximum = 10
+    $depthNumeric.Value = 2
+    $form.Controls.Add($depthNumeric)
+
+    $button = New-Object System.Windows.Forms.Button
+    $button.Text = "Process Folders"
+    $button.Location = New-Object System.Drawing.Point(10, 130)
+    $button.Add_Click({
+        $pathsFile = $textbox.Text
+        if (Test-Path $pathsFile) {
+            Process-Folders $pathsFile $depthNumeric.Value
+            $form.Close()
+        }
+        else {
+            [System.Windows.Forms.MessageBox]::Show("Please select a valid file path.", "Error", [System.Windows.Forms.MessageBoxButtons]::OK, [System.Windows.Forms.MessageBoxIcon]::Error)
+        }
+    })
+    $form.Controls.Add($button)
+
+    $form.ShowDialog()
+}
+
+# Function to process folders from file
+function Process-Folders ($pathsFile, $depth) {
+    # Read the list of folders from the text file
+    $folders = Get-Content -Path $pathsFile
+    
+    Write-Host "`nStarting ACL Analysis" -ForegroundColor Cyan
+    Write-Host "=====================" -ForegroundColor Cyan
+    Write-Host "Scan depth: $depth levels" -ForegroundColor Cyan
+    Write-Host ""
+    
+    $jobs = @()  # Array to hold jobs
+    foreach ($folder in $folders) {
+        if (Test-Path $folder) {
+            Write-Host "Processing folder: $folder" -ForegroundColor Yellow
+            
+            # Create a folder name for the report (sanitize the path)
+            $folderName = $folder -replace '[\\/:*?"<>|]', '_'
+            $folderName = $folderName.TrimEnd('_')
+            
+            # Start a job to generate ACL report
+            $jobs += Start-Job -ScriptBlock {
+                param($folder, $depth, $ReportPath)
+                
+                # Generate ACL report
+                $aclResults = Get-ACLReport $folder $depth
+                
+                # Export results for this folder
+                $today = Get-Date -Format "yyyyMMddHHmm"
+                $reportName = Join-Path $ReportPath "ACL_Report_${folderName}_Depth${depth}_$today.csv"
+                
+                # Export to CSV with UTF8 encoding
+                $aclResults | Export-Csv -Path $reportName -NoTypeInformation -Force -Encoding UTF8
+                
+                Write-Host "Report generated for $folder" -ForegroundColor Green
+                Write-Host "Report location: $reportName" -ForegroundColor Green
+            } -ArgumentList $folder, $depth, $ReportPath
+        }
+        else {
+            Write-Host "Folder not found: $folder" -ForegroundColor Red
+        }
+    }
+    
+    # Wait for all jobs to complete
+    $jobs | Wait-Job
+    
+    # Clean up jobs
+    $jobs | Receive-Job
+    $jobs | Remove-Job
+    
+    Write-Host "`nAll reports have been generated successfully!" -ForegroundColor Green
+}
+
+# Show the file selection dialog
+Show-FileSelectionDialog

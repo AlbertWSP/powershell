@@ -1,0 +1,38 @@
+## Copilot
+To rename your files from 1.jpg, 2.jpg, ..., 22.jpg to the new names provided, you can use a PowerShell script. However, since the new names are provided as a single string, you'll first need to split them into an array. Here's how you can do it:
+- Save the new names into a text file, each name on a new line, and save it as newnames.txt in the C:\temp\off-board\ directory.
+- Use the following PowerShell script to read the new names and rename the files:
+
+# Define the directory containing the files
+$directory = "C:\temp\off-board\"
+
+# Read the new names from the text file
+$newNames = Get-Content -Path "$directory\newnames.txt"
+
+# Get a list of the current .jpg files
+$currentFiles = Get-ChildItem -Path $directory -Filter *.jpg
+
+# Check if the count of new names matches the count of current files
+if ($currentFiles.Count -ne $newNames.Count) {
+    Write-Host "The number of new names does not match the number of files."
+    exit
+}
+
+# Loop through each file and rename it
+for ($i=0; $i -lt $currentFiles.Count; $i++) {
+    # Define the current and new file names
+    $currentName = $currentFiles[$i].FullName
+    $newName = $newNames[$i] + ".jpg"
+
+    # Rename the file
+    Rename-Item -Path $currentName -NewName $newName
+}
+
+Write-Host "All files have been renamed."
+
+This script will:
+- Read the new names from newnames.txt.
+- Retrieve the list of .jpg files in the specified directory.
+- Check if the number of files matches the number of new names.
+- Rename each file to its corresponding new name from the list.
+Make sure that the number of new names matches the number of files you want to rename. Also, ensure that the PowerShell script is run from a location where it has permission to modify the files in the C:\temp\off-board\ directory. Always back up your files before running such scripts to prevent data loss. 😊

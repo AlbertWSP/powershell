@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Sites Version="1.0" LastestUpdate="2024/08/16 08:55:00" CorporateDefaultGroup="">
+    <Site Code="CNBJS300" Name="Beijing" SiteDefaultGroup="GRP-RBC-F-CN-ClientAccess-ALL" DialPlan="CNBJS300" VoiceRoutingPolicy="CNBJS300-INTERNATIONAL|CNBJS300-NATIONAL">
+		<Department Name="P103 ADM FACILITIY MGT BJ" LogonScript="CNBJusers.bat">China-beijing-Admin-Staff|GRP-FSU-CNBJS300-Admin-M|GRP-APP-CN-Supporting</Department>
+		<Department Name="P105 BJ FINANCE" LogonScript="CNBJusers.bat">China-beijing-FA-Staff|GRP-FSU-CNBJS300-FA-M|GRP-APP-CN-Supporting</Department>
+		<Department Name="P106 BJ HUMAN RESOURCES" LogonScript="CNBJusers.bat">China-beijing-HR-Staff|GRP-FSU-CNBJS300-HR-M|GRP-APP-CN-Supporting</Department>
+		<Department Name="P110 PnB BJ PMCM PBETBJ" LogonScript="CNBJusers.bat">GRP-APP-CN-PMCM</Department>
+		<Department Name="P112 TI TRANS PLANNING PBETBJ" LogonScript="CNBJusers.bat">China-beijing-TP-Staff|GRP-FSU-CNBJS300-Transport|GRP-APP-CN-TP</Department>
+		<Department Name="P121 PnB BJ MEP D1 PBETBJ" LogonScript="CNBJusers.bat">China-beijing-MEP-Staff|GRP-FSU-CNBJS300-MEP|GRP-APP-CN-MEP</Department>
+		<Department Name="P128 PnB BJ MEP OPS SP WSPETBJ" LogonScript="CNBJusers.bat">China-beijing-MEP-Staff|GRP-FSU-CNBJS300-MEP|GRP-APP-CN-MEP</Department>
+		<Department Name="P130 PnB PROJ FIN WSPETBJ" LogonScript="CNBJusers.bat">China-beijing-MEP-Staff|GRP-FSU-CNBJS300-MEP|GRP-APP-CN-Supporting</Department>
+		<Department Name="P132 ENVIRONMENT WSPETBJ" LogonScript="CNBJusers.bat">CN-Environmental-AllStaff|China-Beijing-ENV-Staff|GRP-FSU-CNBJS300-ENV|GRP-APP-CN-ENV</Department>
+		<Department Name="P133 ENV OPS SUPP WSPETBJ" LogonScript="CNBJusers.bat">CN-Environmental-AllStaff|China-Beijing-ENV-Staff|GRP-FSU-CNBJS300-ENV|GRP-APP-CN-ENV</Department>
+		<Department Name="P138 PnB CN INDUSTRY WSPETBJ" LogonScript="CNBJusers.bat">GRP-APP-CN-MEP</Department>
+    </Site>
+    <Site Code="CNCDU100" Name="Chengdu" SiteDefaultGroup="GRP-RBC-F-CN-ClientAccess-ALL" DialPlan="CNCDU100" VoiceRoutingPolicy="CNCDU100-INTERNATIONAL|CNCDU100-NATIONAL">
+		<Department Name="P831 PnB CD MEP CD1A WSPETCD" LogonScript="CNCDusers.bat">GRP-FSU-CNCDU100-MEP|China-Chengdu-MEP-Staff|GRP-APP-CN-MEP</Department>
+		<Department Name="P832 PnB CD MEP CD1 OP WSPETCD" LogonScript="CNCDusers.bat">GRP-FSU-CNCDU100-MEP|GRP-FSU-CNCDU100-MEP-BD|China-Chengdu-MEP-Staff|GRP-APP-CN-MEP</Department>
+		<Department Name="P833 PnB CD PMCM WSPETCD" LogonScript="CNCDusers.bat">GRP-APP-CN-PMCM</Department>
+    </Site>
+    <Site Code="CNGGZ100" Name="Guangzhou" SiteDefaultGroup="GRP-RBC-F-CN-ClientAccess-ALL" DialPlan="CNGGZ100" VoiceRoutingPolicy="CNGGZ100-INTERNATIONAL|CNGGZ100-NATIONAL">
+		<Department Name="P502 PnB GZ PMCM PBETGZ" LogonScript="CNGZusers.bat">GRP-APP-CN-PMCM</Department>
+		<Department Name="P508 GZ BIM" LogonScript="CNGZusers.bat">GRP-FSU-CNGGZ100-BIM|China-Guangzhou-BIM-Staff|GRP-APP-CN-BIM</Department>
+		<Department Name="P509 PnB STR GZ PBETGZ" LogonScript="CNGZusers.bat">GRP-FSU-CNGGZ100-CS|China-Guangzhou-StructuralBD-Staff|GRP-APP-CN-CS</Department>
+		<Department Name="P512 ADM FACILITIY MGT GZ" LogonScript="CNGZusers.bat">GRP-FSU-CNGGZ100-Admin|China-Guangzhou-Admin-Staff|GRP-APP-CN-Supporting</Department>
+		<Department Name="P514 GZ FINANCE" LogonScript="CNGZusers.bat">GRP-FSU-CNGGZ100-Account|GRP-FSU-CNGGZ100-Account-GZ-M|China-Guangzhou-Finance-Staff|GRP-APP-CN-Supporting</Department>
+		<Department Name="P515 GZ HUMAN RESOURCES" LogonScript="CNGZusers.bat">GRP-FSU-CNGGZ100-HR|China-Guangzhou-HR-Staff|GRP-APP-CN-Supporting</Department>
+		<Department Name="P516 GZ INFORMATION TECHNOLOGY" LogonScript="CNGZusers.bat">GRP-FSU-CNGGZ100-IT|China-Guangzhou-IT-Staff|GRP-FSU-CN-IT-OSS|GRP-APP-CN-IT-OSS</Department>
+		<Department Name="P521 PnB GZ MEP GD1 1 WSPETGZ" LogonScript="CNGZusers.bat">GRP-FSU-CNGGZ100-MEP|China-Guangzhou-MEP-Staff|GRP-APP-CN-MEP</Department>
+		<Department Name="P531 PnB GZ MEP GD2 1 WSPETGZ" LogonScript="CNGZusers.bat">GRP-FSU-CNGGZ100-MEP|China-Guangzhou-MEP-Staff|GRP-APP-CN-MEP</Department>
+		<Department Name="P541 PnB GZ MEP CD1 1 WSPETGZ" LogonScript="CNGZusers.bat">GRP-FSU-CNGGZ100-MEP|China-Guangzhou-MEP-Staff|GRP-APP-CN-MEP</Department>
+		<Department Name="P542 PnB STR GZ WSPETGZ CAD" LogonScript="CNGZusers.bat">GRP-FSU-CNGGZ100-CSCAD|China-Guangzhou-CSCAD-Staff|GRP-APP-CN-CS</Department>
+		<Department Name="P553 PnB GZ MEP MGT OP WSPETGZ" LogonScript="CNGZusers.bat">GRP-FSU-CNGGZ100-MEP-BD|China-Guangzhou-MEP-Staff|GRP-APP-CN-MEP</Department>
+		<Department Name="P557 TI BIM WSPETGZ" LogonScript="CNGZusers.bat">GRP-FSU-CNGGZ100-TnI|GRP-APP-CN-TnI</Department>
+		<Department Name="P561 GZ ASIA HQ BUSINESS OP" LogonScript="CNGZusers.bat">China-Guangzhou-InternalControl-Staff|GRP-APP-CN-Supporting</Department>
+    </Site>
+    <Site Code="CNSGH300" Name="Shanghai" SiteDefaultGroup="GRP-RBC-F-CN-ClientAccess-ALL" DialPlan="CNSGH300" VoiceRoutingPolicy="CNSGH300-INTERNATIONAL|CNSGH300-NATIONAL">
+		<Department Name="P014 PnB PMCM CN WSP CN" LogonScript="CNSHusers.bat">PMCMSHOStaff|GRP-FSU-CNSGH300-PMCM|GRP-APP-CN-PMCM</Department>
+		<Department Name="P200 PnB SH MEP MGT PBETSH" LogonScript="CNSHusers.bat">CN-SH-MEPS3-ALLSTAFF|GRP-FSU-CNSGH300-MEP|GRP-APP-CN-MEP</Department>
+		<Department Name="P202 ADM FACILITIY MGT SH" LogonScript="CNSHusers.bat">Asia-SNH-Admin|GRP-FSU-CNSGH300-Admin|GRP-APP-CN-Supporting</Department>
+		<Department Name="P204 SH FINANCE" LogonScript="CNSHusers.bat">GRP-FSU-CNSGH300-Account|GRP-APP-CN-Supporting</Department>
+		<Department Name="P205 SH HUMAN RESOURCES" LogonScript="CNSHusers.bat">Asia-SNH-HR|CN-GRP-CNSGH300-HR|GRP-APP-CN-Supporting</Department>
+		<Department Name="P206 SH INFORMATION TECHNOLOGY" LogonScript="CNSHusers.bat">GRP-FSU-CNSGH300-IT|GRP-FSU-CN-IT-OSS|GRP-APP-CN-IT-OSS</Department>
+		<Department Name="P208 PnB SH PMCM PBETSH" LogonScript="CNSHusers.bat">PMCMSHOStaff|GRP-FSU-CNSGH300-PMCM|GRP-APP-CN-PMCM</Department>
+		<Department Name="P210 TI TRANS PLANNING PBETSH" LogonScript="CNSHusers.bat">CN - Shanghai - All TP Staff|GRP-FSU-CNSGH300-TP|GRP-APP-CN-TP</Department>
+		<Department Name="P213 PnB STR SH PBETSH" LogonScript="CNSHusers.bat">CN - Shanghai - All CS Staff|GRP-FSU-CNSGH300-CS|GRP-APP-CN-CS</Department>
+		<Department Name="P216 PnB SUSTAIN WSPETSH" LogonScript="CNSHusers.bat">CN-SH-SE-ALLSTAFF|GRP-FSU-CNSGH300-SE</Department>
+		<Department Name="P218 SH SAFETY QUALITY ASS" LogonScript="CNSHusers.bat">GRP-FSU-CNSGH300-SQA-M|GRP-APP-CN-Supporting</Department>
+		<Department Name="P221 PnB SH MEP D1 PBETSH" LogonScript="CNSHusers.bat">CN-SH-MEPS1-ALLSTAFF|GRP-FSU-CNSGH300-MEP|GRP-FSU-CNSGH300-MEP-S1|GRP-APP-CN-MEP</Department>
+		<Department Name="P222 PnB SH MEP D2 PBETSH" LogonScript="CNSHusers.bat">CN-SH-MEPS2-ALLSTAFF|GRP-FSU-CNSGH300-MEP|GRP-FSU-CNSGH300-MEP-S2|GRP-APP-CN-MEP</Department>
+		<Department Name="P223 PnB SH MEP D3 PBETSH" LogonScript="CNSHusers.bat">CN-SH-MEPS1-ALLSTAFF|GRP-FSU-CNSGH300-MEP|GRP-FSU-CNSGH300-MEP-S1|GRP-APP-CN-MEP</Department>
+		<Department Name="P225 PnB FACADE CN WSPETSH" LogonScript="CNSHusers.bat">WSPFAC-SH-STAFF|GRP-FSU-CNSGH300-FC|CN-GRP-CNSGH200-FC|GRP-APP-CN-FC</Department>
+		<Department Name="P226 SH BIM" LogonScript="CNSHusers.bat">CN-SH-BIM-ALLSTAFF|GRP-FSU-CNSGH300-BIM|GRP-APP-CN-BIM</Department>
+		<Department Name="P227 ENV EA WSPETSH" LogonScript="CNSHusers.bat">CN-Environmental-All Staff|GRP-FSU-CNSGH300-ENVall|GRP-APP-CN-ENV</Department>
+		<Department Name="P228 PnB SH MEP D4 WSPETSH" LogonScript="CNSHusers.bat">CN-SH-MEPS2-ALLSTAFF|GRP-FSU-CNSGH300-MEP|GRP-FSU-CNSGH300-MEP-S2|GRP-APP-CN-MEP</Department>
+		<Department Name="P229 TI TP OPS SUPP WSPETSH" LogonScript="CNSHusers.bat">CN - Shanghai - All TP Staff|GRP-FSU-CNSGH300-TP|GRP-APP-CN-TP</Department>
+		<Department Name="P230 PnB SH MEP MGT OP WSPETSH" LogonScript="CNSHusers.bat">CN-SH-MEPS3-ALLSTAFF|GRP-FSU-CNSGH300-MEP|GRP-APP-CN-MEP</Department>
+		<Department Name="P231 PnB SH MEP D1 OPS WSPETSH" LogonScript="CNSHusers.bat">CN-SH-MEPS1-ALLSTAFF|GRP-FSU-CNSGH300-MEP|GRP-APP-CN-MEP</Department>
+		<Department Name="P232 PnB SH MEP D2 OPS WSPETSH" LogonScript="CNSHusers.bat">CN-SH-MEPS2-ALLSTAFF|GRP-FSU-CNSGH300-MEP|GRP-APP-CN-MEP</Department>
+		<Department Name="P235 PnB CN BIM OPS SP WSPETSH" LogonScript="CNSHusers.bat">CN-SH-BIM-ALLSTAFF|GRP-FSU-CNSGH300-BIM|GRP-APP-CN-BIM</Department>
+		<Department Name="P236 PnB SH PMCM OPS WSPETSH" LogonScript="CNSHusers.bat">PMCMSHOStaff|GRP-FSU-CNSGH300-PMCM|GRP-APP-CN-PMCM</Department>
+		<Department Name="P237 PnB FC CN OPS SP WSPETSH" LogonScript="CNSHusers.bat">WSPFAC-SH-STAFF|GRP-FSU-CNSGH300-FC|GRP-APP-CN-FC</Department>
+		<Department Name="P238 PnB PROJ FIN WSPETSH" LogonScript="CNSHusers.bat">GRP-FSU-CNSGH300-ProjectFinance|GRP-APP-CN-Supporting</Department>
+		<Department Name="P239 TI PROJ FIN WSPETSH" LogonScript="CNSHusers.bat">GRP-FSU-CNSGH300-ProjectFinance|GRP-APP-CN-Supporting</Department>
+		<Department Name="P240 SH LEGAL" LogonScript="CNSHusers.bat">GRP-FSU-CNSGH300-Legal|GRP-APP-CN-Supporting</Department>
+		<Department Name="P241 ENV OPS SUPP WSPETSH" LogonScript="CNSHusers.bat">CN-Environmental-All Staff|GRP-FSU-CNSGH300-ENVall|GRP-APP-CN-ENV</Department>
+		<Department Name="P243 PnB CN INDUSTRY WSPETSH" LogonScript="CNSHusers.bat">GRP-FSU-CNSGH300-Industry|GRP-APP-CN-MEP</Department>
+		<Department Name="P244 ADM OTHER GEN SH" LogonScript="CNSHusers.bat">GRP-APP-CN-Supporting</Department>
+		<Department Name="P245 PAYROLL WSPETSH" LogonScript="CNSHusers.bat">GRP-APP-CN-Supporting</Department>
+		<Department Name="P246 REGIONAL IT WSPETSH" LogonScript="CNSHusers.bat">GRP-APP-CN-Supporting</Department>
+    </Site>
+    <Site Code="CNSNZ100" Name="Shenzhen" SiteDefaultGroup="GRP-RBC-F-CN-ClientAccess-ALL" DialPlan="CNSNZ100" VoiceRoutingPolicy="CNSNZ100-INTERNATIONAL|CNSNZ100-NATIONAL">
+		<Department Name="P302 ADM FACILITIY MGT SZ" LogonScript="CNSZusers.bat">China-Shenzhen-Admin-Staff|GRP-FSU-CNSNZ100-Admin|GRP-APP-CN-Supporting</Department>
+		<Department Name="P304 SZ FINANCE" LogonScript="CNSZusers.bat">China-Shenzhen-Finance-Staff|GRP-FSU-CNSNZ100-Account-SZ-M|GRP-APP-CN-Supporting</Department>
+		<Department Name="P305 SZ HUMAN RESOURCES" LogonScript="CNSZusers.bat">China-Shenzhen-HR-Staff|GRP-FSU-CNSNZ100-HR|GRP-APP-CN-Supporting</Department>
+		<Department Name="P306 SZ INFORMATION TECHNOLOGY" LogonScript="CNSZusers.bat">China-Shenzhen-IT-Staff|GRP-FSU-CNSNZ100-IT|GRP-FSU-CN-IT-OSS|GRP-APP-CN-IT-OSS</Department>
+		<Department Name="P308 PnB PROJ FIN WSPETSZ" LogonScript="CNSZusers.bat">China-Shenzhen-Finance-Staff|GRP-FSU-CNSNZ100-MEP-PF-M|GRP-APP-CN-Supporting</Department>
+		<Department Name="P309 SZ SAFETY AND QUALITY ASS" LogonScript="CNSZusers.bat">GRP-FSU-CNSNZ100-SQA|GRP-APP-CN-Supporting</Department>
+		<Department Name="P310 TI CN INFRA WSPETSZ" LogonScript="CNSZusers.bat">China-Shenzhen-Infra-Staff|GRP-FSU-CNSNZ100-Infra|GRP-APP-CN-TnI</Department>
+		<Department Name="P311 PnB SZ PMCM PBET" LogonScript="CNSZusers.bat">China-Shenzhen-PMCM-Staff|GRP-FSU-CNSNZ100-PMCM|GRP-APP-CN-PMCM</Department>
+		<Department Name="P314 TI TRANS PLANNING PBETSZ" LogonScript="CNSZusers.bat">China-Shenzhen-TP-Staff|GRP-FSU-CNSNZ100-TP|GRP-APP-CN-TP</Department>
+		<Department Name="P316 PnB STR SZ PBETSZ" LogonScript="CNSZusers.bat">China-Shenzhen-CS-Staff|GRP-FSU-CNSNZ100-CS|GRP-APP-CN-CS</Department>
+		<Department Name="P324 ENV WE WSPETSZ" LogonScript="CNSZusers.bat">China-Shenzhen-WE-Staff|GRP-FSU-CNSNZ100-WE|GRP-APP-CN-ENV</Department>
+		<Department Name="P325 PnB SUSTAIN WSPETSZ" LogonScript="CNSZusers.bat">China-Shenzhen-SS-Staff|GRP-FSU-CNSNZ100-SE|GRP-APP-CN-ENV</Department>
+		<Department Name="P327 PnB STR SZ WSPETSZ CAD" LogonScript="CNSZusers.bat">China-Shenzhen-CSCAD-Staff|GRP-FSU-CNSNZ100-CSCAD|GRP-APP-CN-CS</Department>
+		<Department Name="P329 TI CN INFRA OP SP WSPETSZ" LogonScript="CNSZusers.bat">China-Shenzhen-Infra-Staff|GRP-FSU-CNSNZ100-Infra|GRP-APP-CN-TnI</Department>
+		<Department Name="P331 PnB SZ MEP 3 WSPETSZ" LogonScript="CNSZusers.bat">China-Shenzhen-MEP-Staff|GRP-FSU-CNSNZ100-MEP|GRP-APP-CN-MEP</Department>
+		<Department Name="P332 PnB SZ MEP 1 OPS WSPETSZ" LogonScript="CNSZusers.bat">China-Shenzhen-MEP-Staff|GRP-FSU-CNSNZ100-MEP|GRP-APP-CN-MEP</Department>
+		<Department Name="P333 ENV WE OP SUPP WSPETSZ" LogonScript="CNSZusers.bat">China-Shenzhen-WE-Staff|GRP-FSU-CNSNZ100-WE|GRP-APP-CN-ENV</Department>
+		<Department Name="P334 PnB SZ PMCM OPS WSPETSZ" LogonScript="CNSZusers.bat">China-Shenzhen-PMCM-Staff|GRP-FSU-CNSNZ100-PMCM|GRP-APP-CN-PMCM</Department>
+    </Site>
+    <Site Code="HKKWN200" Name="Hongkong" SiteDefaultGroup="GRP-RBC-F-HK-ClientAccess-ALL" DialPlan="HK" VoiceRoutingPolicy="HKKWN200-INTERNATIONAL|HKKWN200-NATIONAL">
+		<Department Name="H010 ADMIN WSP ASIA HLDG" LogonScript="hkgalluser2019.bat">GRP-HK-EquitracRestrictColorPrint|GRP-FSS-DAT18-CorpService-Admin-List</Department>
+		<Department Name="H101 ADMINISTRATION" LogonScript="hkgalluser2019.bat">GRP-HK-EquitracRestrictColorPrint|GRP-FSS-DAT18-CorpService-Admin-List</Department>
+		<Department Name="H801 ASIA MANAGEMENT" LogonScript="hkgalluser2019.bat">GRP-HK-EquitracRestrictColorPrint</Department>
+		<Department Name="H852 HK ASIA HQ COMPLIANCE" LogonScript="hkgalluser2019.bat">GRP-HK-EquitracRestrictColorPrint</Department>
+		<Department Name="H805 ASIA FINANCE" LogonScript="hkgalluser2019.bat">GRP-HK-EquitracRestrictColorPrint|Asia-HKG-FinanceAsia|Asia-HKG-Finance|HK-GRP-HKKWN200-Accounts</Department>
+		<Department Name="H815 PBIL HUMAN RESOURCES" LogonScript="hkgalluser2019.bat">GRP-HK-EquitracRestrictColorPrint|PBHK HR|HK-GRP-HKKWN200-HR|GRP-FSS-DAT18-CorpService-HR-M</Department>
+		<Department Name="H104 HUMAN RESOURCES" LogonScript="hkgalluser2019.bat">GRP-HK-EquitracRestrictColorPrint|PBHK HR|HK-GRP-HKKWN200-HR|GRP-FSS-DAT18-CorpService-HR-M</Department>
+		<Department Name="H111 LEGAL WSPA" LogonScript="hkgalluser2019.bat">GRP-HK-EquitracRestrictColorPrint|GRP-FSS-DAT18-CorpService-Legal-M|GRP-FSS-HK-Legal</Department>
+		<Department Name="H806 ASIA MARKETING" LogonScript="hkgalluser2019.bat"></Department>
+		<Department Name="H803 ASIA-INTERNAL AUDIT" LogonScript="hkgalluser2019.bat">GRP-HK-EquitracRestrictColorPrint</Department>
+		<Department Name="H030 SSAE DGTL WSP HK" LogonScript="WSPHK.bat">GRP-HK-EquitracRestrictColorPrint-BIM|GRP-FSU-HKKWN200-BIM|HK - Hong Kong - All BIM Staff|GRP-FSU-HKKWN200-BIM-BIM-M|GRP-FSU-HKKWN200-BIM-Library-M|HK-GRP-HKKWN200-BIM</Department>
+		<Department Name="H052 PnB HK BIM OPS SUPP WSPHK" LogonScript="WSPHK.bat">GRP-HK-EquitracRestrictColorPrint-BIM|GRP-FSU-HKKWN200-BIM|HK - Hong Kong - All BIM Staff|GRP-FSU-HKKWN200-BIM-BIM-M|GRP-FSU-HKKWN200-BIM-Library-M|HK-GRP-HKKWN200-BIM</Department>
+		<Department Name="H822 CN STRATEGIC CONSULTING" LogonScript="hkgalluser2019.bat">GRP-HK-EquitracRestrictColorPrint</Department>
+		<Department Name="H051 PnB HK FC OPS SUPP WSPHK" LogonScript="WSPHK.bat">GRP-HK-EquitracRestrictColorPrint|GC - All Facade Staff|HK-GRP-HKKWN200-FC|HK-GRP-HKKWN200-CS|GRP-FSU-HKKWN200-STR|GRP-FSU-HKKWN200-STR-Library-R</Department>
+		<Department Name="H103 FINANCE AND ACCOUNTING" LogonScript="hkgalluser2019.bat">GRP-HK-EquitracRestrictColorPrint|GRP-FSS-DAT18-CorpService-FA-M|Asia-HKG-Finance|HK-GRP-HKKWN200-Accounts</Department>
+		<Department Name="H108 PnB HK MGT OPS SUPP WSPA" LogonScript="hkgalluser2019.bat">GRP-HK-EquitracRestrictColorPrint</Department>
+		<Department Name="H053 PnB PROJ FIN WSPHK" LogonScript="WSPHK.bat">GRP-HK-EquitracRestrictColorPrint</Department>
+		<Department Name="H102 INFORMATION TECHNOLOGY" LogonScript="hkgalluser2019.bat">GRP-HK-EquitracRestrictColorPrint|GRP-FSS-DAT18-CorpService-IT-M</Department>
+		<Department Name="H814 PBIL IT" LogonScript="hkgalluser2019.bat">GRP-HK-EquitracRestrictColorPrint|GRP-FSS-DAT18-CorpService-IT-M</Department>
+		<Department Name="H300 PnB HK MEP MGT OP SP WSPA" LogonScript="hkgalluser2019.bat">GRP-HK-EquitracRestrictColorPrint</Department>
+		<Department Name="H055 PnB HK MEP 1 WSP HK" LogonScript="WSPHK.bat">GRP-HK-EquitracRestrictColorPrint|GRP-FSU-HKKWN200-MEP1|GRP-FSU-HKKWN200-MEP1-BIM-R|GRP-FSU-HKKWN200-MEP1-BIM-M</Department>
+		<Department Name="H304 PnB HK MEP 1 DIV A" LogonScript="hkgalluser2019.bat">GRP-HK-EquitracRestrictColorPrint|GRP-FSU-HKKWN200-MEP1|GRP-FSU-HKKWN200-MEP1-BIM-R|GRP-FSU-HKKWN200-MEP1-BIM-M</Department>
+		<Department Name="H337 PnB HK MEP1 OPS SUPP" LogonScript="hkgalluser2019.bat">GRP-HK-EquitracRestrictColorPrint|GRP-FSU-HKKWN200-MEP1|GRP-FSU-HKKWN200-MEP1-BIM-R|GRP-FSU-HKKWN200-MEP1-BIM-M</Department>
+		<Department Name="H960 PnB HKMEP 1 DIV A WSPA MO" LogonScript="hkgalluser2019.bat">GRP-HK-EquitracRestrictColorPrint|GRP-FSU-HKKWN200-MEP1|GRP-FSU-HKKWN200-MEP1-BIM-R|GRP-FSU-HKKWN200-MEP1-BIM-M</Department>
+		<Department Name="H056 PnB HK MEP 2 WSP HK" LogonScript="WSPHK.bat">GRP-HK-EquitracRestrictColorPrint-MEP2|GRP-FSU-HKKWN200-MEP2|HK MEP 2|GRP-FSU-HKKWN200-MEP2-Library-R</Department>
+		<Department Name="H302 PnB HK MEP 2 DIV B" LogonScript="hkgalluser2019.bat">GRP-HK-EquitracRestrictColorPrint-MEP2|GRP-FSU-HKKWN200-MEP2|HK MEP 2|GRP-FSU-HKKWN200-MEP2-Library-R</Department>
+		<Department Name="H303 PnB HK MEP 2 DIV C" LogonScript="hkgalluser2019.bat">GRP-HK-EquitracRestrictColorPrint-MEP2|GRP-FSU-HKKWN200-MEP2|HK MEP 2|GRP-FSU-HKKWN200-MEP2-Library-R</Department>
+		<Department Name="H338 PnB HK MEP2 DIV B OPS SP" LogonScript="hkgalluser2019.bat">GRP-HK-EquitracRestrictColorPrint-MEP2|GRP-FSU-HKKWN200-MEP2|HK MEP 2|GRP-FSU-HKKWN200-MEP2-Library-R</Department>
+		<Department Name="H020 PnB HK MEP 3 WSP HK" LogonScript="WSPHK.bat">GRP-HK-EquitracRestrictColorPrint|GRP-FSU-HKKWN200-MEP3|HK - Hong Kong - All EM Staff|GRP-FSU-HKKWN200-MEP3-Library-R|GRP-FSU-HKKWN200-MEP3-Library-M</Department>
+		<Department Name="H049 PnB HK MEP 3 OPS SP WSPHK" LogonScript="WSPHK.bat">GRP-HK-EquitracRestrictColorPrint|GRP-FSU-HKKWN200-MEP3|HK - Hong Kong - All EM Staff|GRP-FSU-HKKWN200-MEP3-Library-R|GRP-FSU-HKKWN200-MEP3-Library-M</Department>
+		<Department Name="H021 PnB HK MEP 3 RSS WSP HK" LogonScript="WSPHK.bat">GRP-HK-EquitracRestrictColorPrint|GRP-FSU-HKKWN200-MEP3|HK - Hong Kong - All EM Staff|GRP-FSU-HKKWN200-MEP3-Library-R|GRP-FSU-HKKWN200-MEP3-Library-M</Department>
+		<Department Name="H310 PnB HK MEP 4 DIV D" LogonScript="hkgalluser2019.bat">GRP-HK-EquitracRestrictColorPrint|GRP-FSU-HKKWN200-MEP4|GRP-FSU-HKKWN200-MEP4-Library-R|GRP-FSU-HKKWN200-MEP4-Library-M|PBC MEP HK0-D</Department>
+		<Department Name="H340 PnB HK MEP4 OPS SUPP" LogonScript="hkgalluser2019.bat">GRP-HK-EquitracRestrictColorPrint|GRP-FSU-HKKWN200-MEP4|GRP-FSU-HKKWN200-MEP4-Library-R|GRP-FSU-HKKWN200-MEP4-Library-M|PBC MEP HK0-D</Department>
+		<Department Name="H106 BUSINESS DEVELOPMENT" LogonScript="hkgalluser2019.bat">GRP-HK-EquitracRestrictColorPrint|GRP-FSS-DAT18-CorpService-Marketing-M</Department>
+		<Department Name="H308 PnB HK PMMC A WSPA" LogonScript="hkgalluser2019.bat">GRP-HK-EquitracRestrictColorPrint-PMCM|GRP-FSU-HKKWN200-PMCM</Department>
+		<Department Name="H336 PnB HK PMMC OPS SUPP WSPA" LogonScript="hkgalluser2019.bat">GRP-HK-EquitracRestrictColorPrint-PMCM|GRP-FSU-HKKWN200-PMCM</Department>
+		<Department Name="H110 HEALTH SAFETY ENV WSPA" LogonScript="hkgalluser2019.bat">GRP-HK-EquitracRestrictColorPrint|GRP-FSS-DAT18-CorpService-SQA-M</Department>
+		<Department Name="H105 QUALITY" LogonScript="hkgalluser2019.bat">GRP-HK-EquitracRestrictColorPrint|GRP-FSS-DAT18-CorpService-SQA-M</Department>
+		<Department Name="H332 SDE SS OP SUPP WSPA" LogonScript="hkgalluser2019.bat">GRP-HK-EquitracRestrictColorPrint|HK-GRP-HKKWN200-SDE|GRP-FSU-HKKWN200-SDE_H320|GRP-FSU-HKKWN200-SDE_H321|GRP-FSU-HKKWN200-SDE_H330|GRP-FSU-HKKWN200-SDE_H331</Department>
+		<Department Name="H112 PnB SDE PROJ FIN WSPA" LogonScript="hkgalluser2019.bat">GRP-HK-EquitracRestrictColorPrint|HK-GRP-HKKWN200-SDE|GRP-FSU-HKKWN200-SDE_H320|GRP-FSU-HKKWN200-SDE_H321|GRP-FSU-HKKWN200-SDE_H330|GRP-FSU-HKKWN200-SDE_H331</Department>
+		<Department Name="H320 PnB SUSTAINABILITY WSPA" LogonScript="hkgalluser2019.bat">GRP-HK-EquitracRestrictColorPrint|GRP-FSU-HKKWN200-SDE|GRP-FSU-HKKWN200-SDE_H320</Department>
+		<Department Name="H321 ENV EA WSPA" LogonScript="hkgalluser2019.bat">GRP-HK-EquitracRestrictColorPrint|GRP-FSU-HKKWN200-SDE|GRP-FSU-HKKWN200-SDE_H321</Department>
+		<Department Name="H330 PnB SUSTAINABILITY WSPA" LogonScript="hkgalluser2019.bat">GRP-HK-EquitracRestrictColorPrint|GRP-FSU-HKKWN200-SDE|GRP-FSU-HKKWN200-SDE_H330</Department>
+		<Department Name="H331 SDE WE WSPA" LogonScript="hkgalluser2019.bat">GRP-HK-EquitracRestrictColorPrint|GRP-FSU-HKKWN200-SDE|GRP-FSU-HKKWN200-SDE_H331</Department>
+		<Department Name="H041 PnB STR T1 WSP HK" LogonScript="WSPHK.bat">GRP-HK-EquitracRestrictColorPrint|HK - Hong Kong - All CS Staff|HK-GRP-HKKWN200-CS|GRP-FSU-HKKWN200-STR</Department>
+		<Department Name="H325 PnB STR T1 WSPA" LogonScript="hkgalluser2019.bat">GRP-HK-EquitracRestrictColorPrint|HK - Hong Kong - All CS Staff|HK-GRP-HKKWN200-CS|GRP-FSU-HKKWN200-STR</Department>
+		<Department Name="H042 PnB STR T2 WSP HK" LogonScript="WSPHK.bat">GRP-HK-EquitracRestrictColorPrint|HK - Hong Kong - All CS Staff|HK-GRP-HKKWN200-CS|GRP-FSU-HKKWN200-STR</Department>
+		<Department Name="H326 PnB STR T2 WSPA" LogonScript="hkgalluser2019.bat">GRP-HK-EquitracRestrictColorPrint|HK - Hong Kong - All CS Staff|HK-GRP-HKKWN200-CS|GRP-FSU-HKKWN200-STR</Department>
+		<Department Name="H048 PnB STR DF WSP HK" LogonScript="WSPHK.bat">GRP-HK-EquitracRestrictColorPrint|HK - Hong Kong - All CS Staff|HK-GRP-HKKWN200-CS|GRP-FSU-HKKWN200-STR</Department>
+		<Department Name="H050 PnB STR HK OPS SUPP WSPHK" LogonScript="WSPHK.bat">GRP-HK-EquitracRestrictColorPrint|HK - Hong Kong - All CS Staff|HK-GRP-HKKWN200-CS|GRP-FSU-HKKWN200-STR</Department>
+		<Department Name="H329 PnB STR DF WSPA" LogonScript="hkgalluser2019.bat">GRP-HK-EquitracRestrictColorPrint|HK - Hong Kong - All CS Staff|HK-GRP-HKKWN200-CS|GRP-FSU-HKKWN200-STR</Department>
+		<Department Name="H335 PnB STR HK OPS SUPP WSPA" LogonScript="hkgalluser2019.bat">GRP-HK-EquitracRestrictColorPrint|HK - Hong Kong - All CS Staff|HK-GRP-HKKWN200-CS|GRP-FSU-HKKWN200-STR</Department>
+		<Department Name="H040 PnB STR MGT WSP HK" LogonScript="WSPHK.bat">GRP-HK-EquitracRestrictColorPrint|HK - Hong Kong - All CS Staff|HK-GRP-HKKWN200-CS|GRP-FSU-HKKWN200-STR|GRP-FSU-HKKWN200-STR-Library-R</Department>
+		<Department Name="H045 TI BIM WSPHK" LogonScript="WSPHK.bat">GRP-HK-EquitracRestrictColorPrint-TI|HK-GRP-HKKWN200-TI|HK-TI-AllStaff|GRP-FSU-HKKWN200-STR</Department>
+		<Department Name="H504 TI CIVIL WSPA" LogonScript="hkgalluser2019.bat">GRP-HK-EquitracRestrictColorPrint-TI|HK-GRP-HKKWN200-TI|HK-TI-AllStaff|GRP-FSU-HKKWN200-STR</Department>
+		<Department Name="H513 TI PROJ MGT WSPA" LogonScript="hkgalluser2019.bat">GRP-HK-EquitracRestrictColorPrint-TI|HK-GRP-HKKWN200-TI|HK-TI-AllStaff|GRP-FSU-HKKWN200-STR</Department>
+		<Department Name="H520 TI BIM WSPA" LogonScript="hkgalluser2019.bat">GRP-HK-EquitracRestrictColorPrint-TI|HK-GRP-HKKWN200-TI|HK-TI-AllStaff|GRP-FSU-HKKWN200-STR</Department>
+		<Department Name="H500 TI MANAGEMENT WSPA" LogonScript="hkgalluser2019.bat">GRP-HK-EquitracRestrictColorPrint-TI|HK-GRP-HKKWN200-TI|HK-TI-AllStaff|GRP-FSU-HKKWN200-STR</Department>
+		<Department Name="H518 TI COSTING OPS SUPP WSPA" LogonScript="hkgalluser2019.bat">GRP-HK-EquitracRestrictColorPrint-TI|HK-GRP-HKKWN200-TI|HK-TI-AllStaff|GRP-FSU-HKKWN200-STR</Department>
+		<Department Name="H519 TI OPS SUPP WSPA" LogonScript="hkgalluser2019.bat">GRP-HK-EquitracRestrictColorPrint-TI|HK-GRP-HKKWN200-TI|HK-TI-AllStaff|GRP-FSU-HKKWN200-STR</Department>
+		<Department Name="H113 TI PROJ FIN WSPA" LogonScript="hkgalluser2019.bat">GRP-HK-EquitracRestrictColorPrint-TI|HK-GRP-HKKWN200-TI|HK-TI-AllStaff|GRP-FSU-HKKWN200-STR</Department>
+		<Department Name="H054 TI PROJ FIN WSPHK" LogonScript="WSPHK.bat">GRP-HK-EquitracRestrictColorPrint-TI|HK-GRP-HKKWN200-TI|HK-TI-AllStaff|GRP-FSU-HKKWN200-STR</Department>
+		<Department Name="H505 TI RAIL SA WSPA" LogonScript="hkgalluser2019.bat">GRP-HK-EquitracRestrictColorPrint-TI|HK-GRP-HKKWN200-TI|HK-TI-AllStaff|GRP-FSU-HKKWN200-STR</Department>
+		<Department Name="H507 TI RAIL STATION ALIGNMENT" LogonScript="hkgalluser2019.bat">GRP-HK-EquitracRestrictColorPrint-TI|HK-GRP-HKKWN200-TI|HK-TI-AllStaff|GRP-FSU-HKKWN200-STR</Department>
+		<Department Name="H512 TI INFRA WSPA" LogonScript="hkgalluser2019.bat">GRP-HK-EquitracRestrictColorPrint-TI|HK-GRP-HKKWN200-TI|HK-TI-AllStaff|GRP-FSU-HKKWN200-STR</Department>
+		<Department Name="H514 TI DB WSPA" LogonScript="hkgalluser2019.bat">GRP-HK-EquitracRestrictColorPrint-TI|HK-GRP-HKKWN200-TI|HK-TI-AllStaff|GRP-FSU-HKKWN200-STR</Department>
+		<Department Name="H516 TI RSS WSPA" LogonScript="hkgalluser2019.bat">GRP-HK-EquitracRestrictColorPrint-TI|HK-GRP-HKKWN200-TI|HK-TI-AllStaff|GRP-FSU-HKKWN200-STR</Department>
+		<Department Name="H515 TI SPECIAL PROJECT WSPA" LogonScript="hkgalluser2019.bat">GRP-HK-EquitracRestrictColorPrint-TI|HK-GRP-HKKWN200-TI|HK-TI-AllStaff|GRP-FSU-HKKWN200-STR</Department>
+		<Department Name="H517 TI TRANS PLAN WSPA" LogonScript="hkgalluser2019.bat">GRP-HK-EquitracRestrictColorPrint-TI|HK-GRP-HKKWN200-TI|HK-TI-AllStaff|GRP-FSU-HKKWN200-T&amp;I</Department>
+		<Department Name="H506 SSAE ICT ELEC WSPA" LogonScript="hkgalluser2019.bat">GRP-HK-EquitracRestrictColorPrint|GRP-FSU-HKKWN200-SSAE|HK-SSAE-H506</Department>
+		<Department Name="H503 SSAE MEP WSPA" LogonScript="hkgalluser2019.bat">GRP-HK-EquitracRestrictColorPrint|GRP-FSU-HKKWN200-SSAE|HK-SSAE-H503</Department>
+		<Department Name="H501 SSAE OPS SUPP WSPA" LogonScript="hkgalluser2019.bat">GRP-HK-EquitracRestrictColorPrint|GRP-FSU-HKKWN200-SSAE</Department>
+		<Department Name="H508 SSAE RSS WSPA" LogonScript="hkgalluser2019.bat">GRP-HK-EquitracRestrictColorPrint|GRP-FSU-HKKWN200-SSAE</Department>
+		<Department Name="H509 SSAE DGTL ADVISORY WSPA" LogonScript="hkgalluser2019.bat">GRP-HK-EquitracRestrictColorPrint|GRP-FSU-HKKWN200-SSAE|HK-SSAE-BIM</Department>
+    </Site>
+    <Site Code="SGSIN100" Name="Singapore" SiteDefaultGroup="GRP-RBC-F-SG-ClientAccess-ALL|Asia-SGP-Everyone|GRP-FSU-SGP-ACCESS-ColCopier" DialPlan="SGSIN100" VoiceRoutingPolicy="SGSIN100-INTERNATIONAL|SGSIN100-NATIONAL">
+		<Department Name="S091 LEGAL" LogonScript="sgppbpl.bat">Asia-SGP-Everyone|GRP-FSU-SGP-ACCESS-ColCopier</Department>
+		<Department Name="S101 MGT OPERATION SUPPORT" LogonScript="sgppbpl.bat">Asia-SGP-Everyone|SG-AP-CS-ME-FA@wsp.com</Department>
+		<Department Name="S102 OFFICE ADMIN" LogonScript="sgppbpl.bat">Asia-SGP-Everyone|Asia-SGP-PBPL-Adm|asia-sgp-pbpl-admin|SG-Admin@wsp.com</Department>
+		<Department Name="S103 SG FACILITY MGMT" LogonScript="sgppbpl.bat">Asia-SGP-Everyone|SG - Admin|SG - BROADCAST|Asia-SG-Staffs-for-EE</Department>
+		<Department Name="S105 HUMAN RESOURCES" LogonScript="sgppbpl.bat">Asia-SGP-Everyone|SG-HR@wsp.com</Department>
+		<Department Name="S110 IT" LogonScript="sgppbpl.bat">Asia-SGP-Everyone|asia-sgp-pbpl-mis|sg-it@wsp.com</Department>
+		<Department Name="S115 FINANCE" LogonScript="sgppbpl.bat">Asia-SGP-Everyone|Asia-SGP-PBPL-Fin|SG-Finance@wsp.com</Department>
+		<Department Name="S116 FINANCE PROJ ACCOUNTING" LogonScript="sgppbpl.bat">Asia-SGP-Everyone|Asia-SGP-PBPL-Fin|SG-Finance@wsp.com</Department>
+		<Department Name="S120 SHEQ" LogonScript="sgppbpl.bat">Asia-SGP-Everyone|Asia-SGP-PBPL-ISO|Asia-SGP-pbpl-me-iso|SG-SHEQTeam@wsp.com|SG-SHEQ_ISO@wsp.com</Department>
+		<Department Name="S121 BD SUPPORT" LogonScript="sgppbpl.bat">Asia-SGP-Everyone|SG - BD MEP|SG - BD Adm|SG - All-Staff</Department>
+		<Department Name="S126 DIGITAL DELIVERY BIM" LogonScript="sgppbpl.bat">Asia-SGP-Everyone|asia-sgp-pbpl-dfs-ap|asia-sgp-pbpl-dfs-bd|asia-sgp-pbpl-dfs-cs|asia-sgp-pbpl-dfs-mep|asia-sgp-pbpl-dfs-pmc|asia-sgp-pbpl-dfs-power|asia-sgp-pbpl-cs-cad-ldm|Asia-SGP-pbpl-me-cad-ldm|SG-DigitalDelivery@wsp.com</Department>
+		<Department Name="S136 MEP 1 INFRA" LogonScript="sgppbpl.bat">Asia-SGP-Everyone|asia-sgp-pbpl-dfs-mep|Asia-SGP-pbpl-me-eng|Asia-SGP-pbpl-me-everyone|asia-sgp-pbpl-mep1|SG-MEP1@wsp.com</Department>
+		<Department Name="S137 MEP 2 INFRA" LogonScript="sgppbpl.bat">Asia-SGP-Everyone|asia-sgp-pbpl-dfs-mep|Asia-SGP-pbpl-me-eng|Asia-SGP-pbpl-me-everyone|asia-sgp-pbpl-mep2|SG-MEP2@wsp.com</Department>
+		<Department Name="S142 PnB SECRETARIES" LogonScript="sgppbpl.bat">Asia-SGP-Everyone|asia-sgp-pbpl-dfs-cs|Asia-SGP-PBPL-CS-Eng|Asia-SGP-pbpl-cs-everyone</Department>
+		<Department Name="S143 MEP B" LogonScript="sgppbpl.bat">Asia-SGP-Everyone|asia-sgp-pbpl-dfs-mep|Asia-SGP-pbpl-me-eng|Asia-SGP-pbpl-me-everyone</Department>
+		<Department Name="S144 MEP A" LogonScript="sgppbpl.bat">Asia-SGP-Everyone|asia-sgp-pbpl-dfs-mep|Asia-SGP-pbpl-me-eng|Asia-SGP-pbpl-me-everyone</Department>
+		<Department Name="S145 PnB BIM" LogonScript="sgppbpl.bat">Asia-SGP-Everyone|asia-sgp-pbpl-dfs-mep|Asia-SGP-pbpl-me-eng|Asia-SGP-pbpl-me-everyone|Asia-SGP-pbpl-me-cad|SG-MEPProduction@wsp.com</Department>
+		<Department Name="S158 PLANNING n DEV" LogonScript="sgppbpl.bat">Asia-SGP-Everyone|asia-sgp-pbpl-dfs-mep|Asia-SGP-pbpl-me-eng|Asia-SGP-pbpl-me-everyone</Department>
+		<Department Name="S159 MEP C" LogonScript="sgppbpl.bat">Asia-SGP-Everyone|asia-sgp-pbpl-dfs-mep|Asia-SGP-pbpl-me-eng|Asia-SGP-pbpl-me-everyone</Department>
+		<Department Name="S161 PM CONSULTANCY" LogonScript="sgppbpl.bat">Asia-SGP-Everyone|asia-sgp-pbpl-pmc|asia-sgp-pbpl-dfs-ap|SG-PMC@wsp.com</Department>
+		<Department Name="S168 ARCH PLANNING" LogonScript="sgppbpl.bat">Asia-SGP-Everyone|Asia-SGP-Everyone|asia-sgp-pbpl-arch|asia-sgp-pbpl-dfs-ap|SG-ARCH@wsp.com</Department>
+		<Department Name="S170 SITE CS INFRA" LogonScript="sgppbpl.bat">Asia-SGP-Everyone|Asia-SGP-Everyone|SG-CSSiteStaff@wsp.com</Department>
+		<Department Name="S172 SITE ARCH" LogonScript="sgppbpl.bat">Asia-SGP-Everyone|SG - All-Staff</Department>
+		<Department Name="S173 SITE MEP B" LogonScript="sgppbpl.bat">Asia-SGP-Everyone|SG-MEPSiteStaff@wsp.com</Department>
+		<Department Name="S174 SITE MEP A" LogonScript="sgppbpl.bat">Asia-SGP-Everyone|SG-MEPSiteStaff@wsp.com</Department>
+		<Department Name="S175 SITE CS BUILDING" LogonScript="sgppbpl.bat">Asia-SGP-Everyone|SG-CSSiteStaff@wsp.com</Department>
+		<Department Name="S176 SITE PMC" LogonScript="sgppbpl.bat">Asia-SGP-Everyone|asia-sgp-pbpl-dfs-mep|Asia-SGP-pbpl-me-eng|Asia-SGP-pbpl-me-everyone</Department>
+		<Department Name="S177 SITE MEP 2" LogonScript="sgppbpl.bat">Asia-SGP-Everyone|asia-sgp-pbpl-dfs-mep|Asia-SGP-pbpl-me-eng|Asia-SGP-pbpl-me-everyone</Department>
+		<Department Name="S178 SITE CS 3" LogonScript="sgppbpl.bat">Asia-SGP-Everyone|asia-sgp-pbpl-dfs-mep|Asia-SGP-pbpl-me-eng|Asia-SGP-pbpl-me-everyone</Department>
+		<Department Name="S179 SITE MEP 1" LogonScript="sgppbpl.bat">Asia-SGP-Everyone|asia-sgp-pbpl-dfs-mep|Asia-SGP-pbpl-me-eng|Asia-SGP-pbpl-me-everyone</Department>
+		<Department Name="S180 SITE CS2" LogonScript="sgppbpl.bat">Asia-SGP-Everyone|asia-sgp-pbpl-dfs-mep|Asia-SGP-pbpl-me-eng|Asia-SGP-pbpl-me-everyone</Department>
+		<Department Name="S190 POWER" LogonScript="sgppbpl.bat">Asia-SGP-Everyone|asia-sgp-pbpl-dfs-power|Asia-SGP-PB-Power|SG-Power@wsp.com</Department>
+		<Department Name="S402 CS3 ENV AND WATER" LogonScript="sgppbpl.bat">Asia-SGP-Everyone|asia-sgp-pbpl-dfs-mep|Asia-SGP-pbpl-me-eng|Asia-SGP-pbpl-me-everyone</Department>
+		<Department Name="S406 CS BUILDING" LogonScript="sgppbpl.bat">Asia-SGP-Everyone|asia-sgp-pbpl-dfs-cs|Asia-SGP-pbpl-cs-everyone|Asia-SGP-PBPL-CS-Eng|SG-CSDO@wsp.com</Department>
+		<Department Name="S408 TnI CS BIM" LogonScript="sgppbpl.bat">Asia-SGP-Everyone|asia-sgp-pbpl-dfs-cs|Asia-SGP-pbpl-cs-everyone|SG-CSDrafting@wsp.com</Department>
+		<Department Name="S411 TnI MGMT" LogonScript="sgppbpl.bat">Asia-SGP-Everyone|asia-sgp-pbpl-dfs-cs|Asia-SGP-pbpl-cs-everyone|Asia-SGP-PBPL-CS-Eng|SG-CSDO@wsp.com</Department>
+		<Department Name="S412 CS1 INFRA" LogonScript="sgppbpl.bat">Asia-SGP-Everyone|asia-sgp-pbpl-dfs-cs|Asia-SGP-pbpl-cs-everyone|Asia-SGP-PBPL-CS-Eng|SG-CSDO@wsp.com</Department>
+		<Department Name="S413 CS2 INFRA" LogonScript="sgppbpl.bat">Asia-SGP-Everyone|asia-sgp-pbpl-dfs-cs|Asia-SGP-pbpl-cs-everyone|Asia-SGP-PBPL-CS-Eng|SG-CSDO@wsp.com</Department>
+		<Department Name="S414 TnI SECRETARIES" LogonScript="sgppbpl.bat">Asia-SGP-Everyone|asia-sgp-pbpl-dfs-mep|Asia-SGP-pbpl-me-eng|Asia-SGP-pbpl-me-everyone</Department>
+		<Department Name="S415 TnI MEP BIM" LogonScript="sgppbpl.bat">Asia-SGP-Everyone|asia-sgp-pbpl-dfs-mep|Asia-SGP-pbpl-me-eng|Asia-SGP-pbpl-me-everyone</Department>
+		<Department Name="S550 ENVIRONMENT" LogonScript="sgppbpl.bat">Asia-SGP-Everyone|asia-sgp-pbpl-dfs-mep|Asia-SGP-pbpl-me-eng|Asia-SGP-pbpl-me-everyone</Department>
+		<Department Name="S551 GEOTECHNICAL" LogonScript="sgppbpl.bat">Asia-SGP-Everyone|asia-sgp-pbpl-dfs-mep|Asia-SGP-pbpl-me-eng|Asia-SGP-pbpl-me-everyone</Department>
+		<Department Name="S804 SING OPERATIONS" LogonScript="sgppbpl.bat">Asia-SGP-Everyone|asia-sgp-pbpl-dfs-mep|Asia-SGP-pbpl-me-eng|Asia-SGP-pbpl-me-everyone</Department>
+		<Department Name="S805 SG MGMT SUPPORT" LogonScript="sgppbpl.bat">Asia-SGP-Everyone|asia-sgp-pbpl-dfs-mep|Asia-SGP-pbpl-me-eng|Asia-SGP-pbpl-me-everyone</Department>
+		<Department Name="S854 REGIONAL DEVELOPMENT" LogonScript="sgppbpl.bat">Asia-SGP-Everyone|asia-sgp-pbpl-dfs-mep|Asia-SGP-pbpl-me-eng|Asia-SGP-pbpl-me-everyone</Department>
+	</Site>
+    <Site Code="TWNTC100" Name="Taiwan" SiteDefaultGroup="GRP-RBC-F-TW-ClientAccess-ALL" DialPlan="TWNTC100" VoiceRoutingPolicy="TWNTC100-INTERNATIONAL|TWNTC100-NATIONAL">
+		<Department Name="T120 TRANSPORT" LogonScript="">GRP-FSU-TWNTC100-DPT-TRA</Department>
+		<Department Name="T121 TRANSPORT OP SUPPORT" LogonScript="">GRP-FSU-TWNTC100-DPT-TRA</Department>
+		<Department Name="T130 BUILDING" LogonScript="">GRP-FSU-TWNTC100-DPT-BLD</Department>
+		<Department Name="T131 BUILDING OP SUPPORT" LogonScript="">GRP-FSU-TWNTC100-DPT-BLD</Department>
+		<Department Name="T161 MISSION CRITICAL" LogonScript="">GRP-FSU-TWNTC100-DPT-MSC</Department>
+		<Department Name="T162 MISSION CRITICAL OP SUPP" LogonScript="">GRP-FSU-TWNTC100-DPT-MSC</Department>
+		<Department Name="T171 BIM" LogonScript="">GRP-FSU-TWNTC100-DPT-BIM</Department>
+		<Department Name="T172 BIM OP SUPPORT" LogonScript="">GRP-FSU-TWNTC100-DPT-BIM</Department>
+		<Department Name="T191 POWER" LogonScript="">GRP-FSU-TWNTC100-DPT-PWR</Department>
+		<Department Name="T192 ENVIRONMENT" LogonScript="">GRP-FSU-TWNTC100-DPT-WTR</Department>
+		<Department Name="T194 POWER OP SUPPORT" LogonScript="">GRP-FSU-TWNTC100-DPT-PWR</Department>
+		<Department Name="T195 POWER INTL" LogonScript="">GRP-FSU-TWNTC100-DPT-PWI</Department>
+		<Department Name="T196 POWER INTL OP SUPP" LogonScript="">GRP-FSU-TWNTC100-DPT-PWI</Department>
+		<Department Name="T300 OPERATIONS" LogonScript="">GRP-FSU-TWNTC100-DPT-ADM</Department>
+		<Department Name="T301 INFORMATION TECHNOLOGY" LogonScript="">GRP-FSU-TWNTC100-DPT-IT</Department>
+		<Department Name="T302 HUMAN RESOURCES" LogonScript="">GRP-FSU-TWNTC100-DPT-HR</Department>
+		<Department Name="T303 FINANCE" LogonScript="">GRP-FSU-TWNTC100-DPT-ACC</Department>
+		<Department Name="T304 OTHER ADMIN SUPPORT" LogonScript="">GRP-FSU-TWNTC100-DPT-GA</Department>
+		<Department Name="T310 CONTRACT" LogonScript="">GRP-FSU-TWNTC100-DPT-Legal</Department>
+		<Department Name="T320 TRANSPORT" LogonScript="">GRP-FSU-TWNTC100-DPT-TRA</Department>
+		<Department Name="T330 BUILDING" LogonScript="">GRP-FSU-TWNTC100-DPT-BLD</Department>
+		<Department Name="T361 MISSION CRITICAL" LogonScript="">GRP-FSU-TWNTC100-DPT-MSC</Department>
+		<Department Name="T371 BIM" LogonScript="">GRP-FSU-TWNTC100-DPT-BIM</Department>
+		<Department Name="T372 BIM OP SUPPORT" LogonScript="">GRP-FSU-TWNTC100-DPT-BIM</Department>
+		<Department Name="T390 POWER INTL" LogonScript="">GRP-FSU-TWNTC100-DPT-PWI</Department>
+		<Department Name="T391 POWER" LogonScript="">GRP-FSU-TWNTC100-DPT-PWR</Department>
+		<Department Name="T392 ENVIRONMENT" LogonScript="">GRP-FSU-TWNTC100-DPT-WTR</Department>
+		<Department Name="T393 ENVIRONMENT OP SUPPORT" LogonScript="">GRP-FSU-TWNTC100-DPT-WTR</Department>
+		<Department Name="T394 POWER OP SUPPORT" LogonScript="">GRP-FSU-TWNTC100-DPT-PWR</Department>
+		<Department Name="T395 WASTE TO ENERGY" LogonScript="">GRP-FSU-TWNTC100-DPT-WTR</Department>
+		<Department Name="T396 WASTE TO ENERGY OPS SUPP" LogonScript="">GRP-FSU-TWNTC100-DPT-WTR</Department>
+		<Department Name="T397 WATER" LogonScript="">GRP-FSU-TWNTC100-DPT-WTR</Department>
+		<Department Name="T398 WATER OPERATIONAL SUPP" LogonScript="">GRP-FSU-TWNTC100-DPT-WTR</Department>
+		<Department Name="T399 POWER INTL OP SUPP" LogonScript="">GRP-FSU-TWNTC100-DPT-PWI</Department>
+    </Site>
+    <Site Code="KRSEL100" Name="Korea" SiteDefaultGroup="GRP-RBC-F-KR-ClientAccess-ALL|Koreastaff@wsp.com" DialPlan="KRSEL100" VoiceRoutingPolicy="KRSEL100-INTERNATIONAL|KRSEL100-NATIONAL">
+		<Department Name="K119 CIVIL n STRUCTURE" LogonScript="KRSEL100.BAT">KR-GRP-KRSEL100-Structure</Department>
+		<Department Name="K114 ENERGY BUSINESS" LogonScript="KRSEL100.BAT">KR-GRP-KRSEL100-Energy</Department>
+		<Department Name="K101 KR FINANCE 771" LogonScript="KRSEL100.BAT">KR-GRP-KRSEL100-Finance</Department>
+		<Department Name="K112 MnE" LogonScript="KRSEL100.BAT">KR-GRP-KRSEL100-FireProtection|KR-GRP-KRSEL100-Mechanical|KR-GRP-KRSEL100-Electrical</Department>
+		<Department Name="K102 KR HUMAN RESOURCES 771" LogonScript="KRSEL100.BAT">KR-GRP-KRSEL100-HR</Department>
+		<Department Name="K121 HR PAYROLL" LogonScript="KRSEL100.BAT">KR-GRP-KRSEL100-HR</Department>
+		<Department Name="K103 KR INFO TECHNOLOGY 771" LogonScript="KRSEL100.BAT">KR-GRP-KRSEL100-IT</Department>
+		<Department Name="K107 MANAGEMENT" LogonScript="KRSEL100.BAT">KR-GRP-KRSEL100-MD</Department>
+		<Department Name="K100 ADMINISTRATION" LogonScript="KRSEL100.BAT">KR-GRP-KRSEL100-Planning</Department>
+		<Department Name="K106 KR MARCOMM 771" LogonScript="KRSEL100.BAT">KR-GRP-KRSEL100-Planning</Department>
+		<Department Name="K116 PRE CON" LogonScript="KRSEL100.BAT">KR-GRP-KRSEL100-PreCon</Department>
+		<Department Name="K316 PRE CON" LogonScript="KRSEL100.BAT">KR-GRP-KRSEL100-PreCon</Department>
+		<Department Name="K118 ADVISORY n CONSULTING" LogonScript="KRSEL100.BAT">KR-GRP-KRSEL100-ProjectDelivery</Department>
+		<Department Name="K318 ADVISORY n CONSULTING" LogonScript="KRSEL100.BAT">KR-GRP-KRSEL100-ProjectDelivery</Department>
+		<Department Name="K120 QS" LogonScript="KRSEL100.BAT">KR-GRP-KRSEL100-QS</Department>
+		<Department Name="K320 QS" LogonScript="KRSEL100.BAT">KR-GRP-KRSEL100-QS</Department>
+		<Department Name="K109 RnD" LogonScript="KRSEL100.BAT">GRP-SEC-KR-RnD</Department>
+		<Department Name="K309 RnD" LogonScript="KRSEL100.BAT">GRP-SEC-KR-RnD</Department>
+		<Department Name="K108 SAFETY" LogonScript="KRSEL100.BAT">KR-GRP-KRSEL100-SafetyManagement</Department>
+		<Department Name="K308 SAFETY" LogonScript="KRSEL100.BAT">KR-GRP-KRSEL100-SafetyManagement</Department>
+		<Department Name="K115 SALES" LogonScript="KRSEL100.BAT">KR-GRP-KRSEL100-Sales</Department>
+		<Department Name="K315 SALES" LogonScript="KRSEL100.BAT">KR-GRP-KRSEL100-Sales</Department>
+		<Department Name="K111 SITE OPERATION" LogonScript="KRSEL100.BAT">KR-GRP-KRSEL100-SiteOperation</Department>
+		<Department Name="K310 SITE OPERATION" LogonScript="KRSEL100.BAT">KR-GRP-KRSEL100-SiteOperation</Department>
+		<Department Name="K117 SUSTAINABILITY" LogonScript="KRSEL100.BAT">KR-GRP-KRSEL100-Sustainability</Department>
+		<Department Name="K317 SUSTAINABILITY" LogonScript="KRSEL100.BAT">KR-GRP-KRSEL100-Sustainability</Department>
+		<Department Name="K110 INFRASTRUCTURE" LogonScript="KRSEL100.BAT">KR-GRP-KRSEL100-T&amp;I</Department>
+    </Site>
+    <Site Code="THBKK100" Name="Thailand" SiteDefaultGroup="GRP-RBC-F-TH-ClientAccess-ALL" DialPlan="THBKK100" VoiceRoutingPolicy="THBKK100-INTERNATIONAL|THBKK100-NATIONAL">
+		<Department Name="B100 ADMINISTRATION" LogonScript="thbkk100logon.bat">thailand-allstaff@wsp.com|GRP-FSS-TH-THBKK100DAT01CAD-RW|GRP-FSS-TH-THBKK100DAT01CV-RW|GRP-FSS-TH-THBKK100DAT01GEN-RW|GRP-FSS-TH-THBKK100DAT01SCAN-RW|GRP-FSS-TH-THBKK100DAT01PROPOSAL-RW|GRP-FSS-TH-THBKK100DAT01WORKING-RW</Department>
+		<Department Name="B101 TH FINANCE" LogonScript="thbkk100logon.bat">thailand-allstaff@wsp.com|GRP-FSS-TH-THBKK100DAT01CAD-RW|GRP-FSS-TH-THBKK100DAT01CV-RW|GRP-FSS-TH-THBKK100DAT01GEN-RW|GRP-FSS-TH-THBKK100DAT01SCAN-RW|GRP-FSS-TH-THBKK100DAT01PROPOSAL-RW|GRP-FSS-TH-THBKK100DAT01WORKING-RW</Department>
+		<Department Name="B103 TH INFORMATION TECHNOLOGY" LogonScript="thbkk100logon.bat">thailand-allstaff@wsp.com|GRP-FSS-TH-THBKK100DAT01CAD-RW|GRP-FSS-TH-THBKK100DAT01CV-RW|GRP-FSS-TH-THBKK100DAT01GEN-RW|GRP-FSS-TH-THBKK100DAT01SCAN-RW|GRP-FSS-TH-THBKK100DAT01PROPOSAL-RW|GRP-FSS-TH-THBKK100DAT01WORKING-RW</Department>
+		<Department Name="B104 OPERATION" LogonScript="thbkk100logon.bat">thailand-allstaff@wsp.com|GRP-FSS-TH-THBKK100DAT01CAD-RW|GRP-FSS-TH-THBKK100DAT01CV-RW|GRP-FSS-TH-THBKK100DAT01GEN-RW|GRP-FSS-TH-THBKK100DAT01SCAN-RW|GRP-FSS-TH-THBKK100DAT01PROPOSAL-RW|GRP-FSS-TH-THBKK100DAT01WORKING-RW</Department>
+		<Department Name="B110 ENGINEERING" LogonScript="thbkk100logon.bat">thailand-allstaff@wsp.com|GRP-FSS-TH-THBKK100DAT01CAD-RW|GRP-FSS-TH-THBKK100DAT01CV-RW|GRP-FSS-TH-THBKK100DAT01GEN-RW|GRP-FSS-TH-THBKK100DAT01SCAN-RW|GRP-FSS-TH-THBKK100DAT01PROPOSAL-RW|GRP-FSS-TH-THBKK100DAT01WORKING-RW</Department>
+	</Site>
+</Sites>

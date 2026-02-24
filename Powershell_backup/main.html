@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PowerShell Script Runner</title>
+    <link rel="icon" href="powershell.png" type="image/x-icon">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #0078d7;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #005a9e;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+        button {
+            padding: 10px 20px;
+            margin: 10px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            background-color: #0078d7;
+            color: white;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #005a9e;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>PowerShell Script Runner</h1>
+    </header>
+    <nav>
+
+    </nav>
+    <main>
+        <h2>Run Your PowerShell Scripts</h2>
+        <p>Select a script to execute:</p>
+        <button onclick="runScript('GetACLReport_byAlbert(2.0).ps1')">GetACLReport_byAlbert(2.0)</button>
+        <button onclick="runScript('ADDirector.ps1')">Run ADDirector</button>
+        <button onclick="runScript('ADReaper.ps1')">Run ADReaper</button>
+        <button onclick="executeBatchFile()">Run CollectInfo</button>
+    <footer>
+        <p>&copy; 2023 PowerShell Script Runner. All rights reserved.</p>
+    </footer>
+    <script>
+        function runScript(scriptName) {
+            fetch('http://localhost:3000/run-script', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ scriptName })
+            })
+            .then(response => response.json())
+            .then(data => alert(data.message))
+            .catch(error => alert('Error: ' + error.message));
+        }
+
+        function executeBatchFile() {
+            fetch('http://localhost:3000/execute-batch', {
+                method: 'POST'
+            })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Failed to execute batch file.');
+                }
+                
+            })
+            .catch(error => alert('Error: ' + error.message));
+        }
+    </script>
+</body>
+</html>

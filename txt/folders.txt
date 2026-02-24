@@ -1,0 +1,163 @@
+\\dcasi300dat01\DCASI300\DAT13\t&i\Projects\2511018A
+\\dcasi300dat01\DCASI300\DAT13\t&i\Projects\2511025A - C1101
+\\dcasi300dat01\DCASI300\DAT13\t&i\Projects\2511042A - VO_Preliminary Barra Re-design
+\\dcasi300dat01\DCASI300\DAT13\t&i\Projects\2511042V - MACAU LRT - UNCONFIRMED VO
+\\dcasi300dat01\DCASI300\DAT13\t&i\Projects\2511101A - MTR 1153B SES_CFD
+\\dcasi300dat01\DCASI300\DAT13\t&i\Projects\2511122A - QX15-027A TVS AT NSEW RENEWAL
+\\dcasi300dat01\DCASI300\DAT13\t&i\Projects\2511126A
+\\dcasi300dat01\DCASI300\DAT13\t&i\Projects\2511145A - AVA FOR NKT DEVELOPMENT S12 AP
+\\dcasi300dat01\DCASI300\DAT13\t&i\Projects\2511148A - C4_TM-CLK_TUNNEL_E&M
+\\dcasi300dat01\DCASI300\DAT13\t&i\Projects\2511149A - TKODP Tender
+\\dcasi300dat01\DCASI300\DAT13\t&i\Projects\2511155A - NKIL6602-YVB DEVELOPMENT
+\\dcasi300dat01\DCASI300\DAT13\t&i\Projects\2511161A – CLP CCGT D2
+\\dcasi300dat01\DCASI300\DAT13\t&i\Projects\2511162A - M+ RPE SERVICES FOR FSD
+\\dcasi300dat01\DCASI300\DAT13\t&i\Projects\2511165A - West Connex Stage 3B
+\\dcasi300dat01\DCASI300\DAT13\t&i\Projects\2511166A - A222-19E STATUTORY SUBMISSIONS
+\\dcasi300dat01\DCASI300\DAT13\t&i\Projects\2511168A-CRLC3 TV+FLS AU
+\\dcasi300dat01\DCASI300\DAT13\t&i\Projects\2511171A - ORRC-P2
+\\dcasi300dat01\DCASI300\DAT13\t&i\Projects\2511171A-ORRC-P2 (ICT)
+\\dcasi300dat01\DCASI300\DAT13\t&i\Projects\2511173A Central Kowloon Route-BEM Tender
+\\dcasi300dat01\DCASI300\DAT13\t&i\Projects\2511175A-TKODP
+\\dcasi300dat01\DCASI300\DAT13\t&i\Projects\2511176A (closed) - SLC Stage 2 - CFD study
+\\dcasi300dat01\DCASI300\DAT13\t&i\Projects\2511178A_SWH
+\\dcasi300dat01\DCASI300\DAT13\t&i\Projects\2511179A - Pillar Point STW - Feasibility Study of New Septic Treatment Facility
+\\dcasi300dat01\DCASI300\DAT13\t&i\Projects\2511180A - CE15_2018(WS) FS DESIGN
+\\dcasi300dat01\DCASI300\DAT13\t&i\Projects\2511181A_PBPP_ECOPARK
+\\dcasi300dat01\DCASI300\DAT13\t&i\Projects\2511182A_Anderson Road GWS_ICE
+\\dcasi300dat01\DCASI300\DAT13\t&i\Projects\2511192A - C21W02 T&C FOR APS TEST PLAN
+\\dcasi300dat01\DCASI300\DAT13\t&i\Projects\2512104A
+\\dcasi300dat01\DCASI300\DAT13\t&i\Projects\2512171B - CE65 TM WESTERN BYPASS (MEP)
+\\dcasi300dat01\DCASI300\DAT13\t&i\Projects\2512219C_CE47 (MEP)
+\\dcasi300dat01\DCASI300\DAT13\t&i\Projects\2512222E_AUTOMATED CAR PARK_P1_MEP
+\\dcasi300dat01\DCASI300\DAT13\t&i\Projects\2514333B CKR CENTRAL CA006
+\\dcasi300dat01\DCASI300\DAT13\t&i\Projects\2514511B
+\\dcasi300dat01\DCASI300\DAT13\t&i\Projects\2519034A - SIL-C903 DETAILED DESIGN
+\\dcasi300dat01\DCASI300\DAT13\t&i\Projects\2520313G - CMI HK2DC-CFD
+\\dcasi300dat01\DCASI300\DAT13\t&i\Projects\2523421B - A229-19E_MEP
+\\dcasi300dat01\DCASI300\DAT20\Projects2\2508056A
+\\dcasi300dat01\DCASI300\DAT20\Projects2\2511018A - C1106 Hung Hom Station and Associated Tunnel
+\\dcasi300dat01\DCASI300\DAT20\Projects2\2511042A - Macau LRT SVB MEP Design (SL)
+\\dcasi300dat01\DCASI300\DAT20\Projects2\2511152A - MACAU LRT FIRE ENGG & TVS
+\\dcasi300dat01\DCASI300\DAT20\Projects2\2511156A - K1228 Re-design of Intercity CuC at HUH
+\\dcasi300dat01\DCASI300\DAT20\Projects2\2511160A - ENGINEERING SUPPORT TO M+ PROJ
+\\dcasi300dat01\DCASI300\DAT20\Projects2\2511163A - TKOIE TENDER DESIGN SUPPORT
+\\dcasi300dat01\DCASI300\DAT20\Projects2\2511164A - PPSTW IPA - SS
+\\dcasi300dat01\DCASI300\DAT20\Projects2\2511167A - Jet Fan Calculation & CFD Studies
+\\dcasi300dat01\DCASI300\DAT20\Projects2\2511170A - TMCLK LINK SERVICE GALLERY FER
+\\dcasi300dat01\DCASI300\DAT20\Projects2\2511183A
+\\dcasi300dat01\DCASI300\DAT20\Projects2\2511184A
+\\dcasi300dat01\DCASI300\DAT20\Projects2\2511185A - CE832021 ON-SITE STOR WSS-FS
+\\dcasi300dat01\DCASI300\DAT20\Projects2\2511186A - MTR SCPS AT HIC KIC TYI & HUH
+\\dcasi300dat01\DCASI300\DAT20\Projects2\2511187A - MTR C1202 TCE STATION
+\\dcasi300dat01\DCASI300\DAT20\Projects2\2511188A - C1801 MTR HSK STN - REF DESIGN
+\\dcasi300dat01\DCASI300\DAT20\Projects2\2511193A - ASTAR TECH TRANSLATION POLICY
+\\dcasi300dat01\DCASI300\DAT20\Projects2\2511194A - HSBC M2 DPR FOR SOLAR POWER
+\\dcasi300dat01\DCASI300\DAT20\Projects2\2511195A - 18WSD21 PUI O RAW WPS – ICE
+\\dcasi300dat01\DCASI300\DAT20\Projects2\2511197A - DC202312 RELOCATE ST STW_DDS
+\\dcasi300dat01\DCASI300\DAT20\Projects2\2511198A - SG-J121
+\\dcasi300dat01\DCASI300\DAT20\Projects2\2511199A - SEMBCORP BESS KPI STANDARDS
+\\dcasi300dat01\DCASI300\DAT20\Projects2\2511200A - MTR 1653_TECS FOR KTU (EAL)
+\\dcasi300dat01\DCASI300\DAT20\Projects2\2511201A - CE38_2021 (DS)_CFD
+\\dcasi300dat01\DCASI300\DAT20\Projects2\2511205A -MTR 1253 TUNNEL ECS TCW
+\\dcasi300dat01\DCASI300\DAT20\Projects2\2511206A - 21WSD21 TEMP VENT SYS DES OF DH
+\\dcasi300dat01\DCASI300\DAT20\Projects2\2511207A - GE202214 TEMP VENT SYS DES OF AR
+\\dcasi300dat01\DCASI300\DAT20\Projects2\2511208A - APIL 136 AT 66 LEE NAM ROAD
+\\dcasi300dat01\DCASI300\DAT20\Projects2\2511209A - PPVL UTILITIES
+\\dcasi300dat01\DCASI300\DAT20\Projects2\2512133C - P273 FB MEP
+\\dcasi300dat01\DCASI300\DAT20\Projects2\2512176B - CE29_2017 BRAEMAR HILL (MEP)
+\\dcasi300dat01\DCASI300\DAT20\Projects2\2513207E - MTR TME CONTRACT 1500
+\\dcasi300dat01\DCASI300\DAT20\Projects2\2519035A (SIL Trackside Bracket)
+\\dcasi300dat01\DCASI300\DAT20\Projects2\2520274C
+\\dcasi300dat01\DCASI300\DAT20\Projects2\2523321D - YVB MODIFY (MECH)
+\\dcasi300dat01\DCASI300\DAT20\Projects2\2523526B - MTR A305 23E TERM C INFRA
+\\corp\hk\Transition\DAT13\T&I\Projects\2511042B - MACAU LRT - SVB ICT DESIGN
+\\corp\hk\Transition\DAT13\T&I\Projects\2511149B - TKO DESALINATION PLANT (ICT)
+\\corp\hk\Transition\DAT13\T&I\Projects\2511165C - WEST CONNEX STAGE 3B (ICT)
+\\corp\hk\Transition\DAT13\T&I\Projects\2512131B - KAI TAK LANDSCAPE DECK (E&M)
+\\corp\hk\Transition\DAT13\T&I\Projects\2512175B - KTIL240 HOW MING STR KWT (ICT)
+\\corp\hk\Transition\DAT13\T&I\Projects\2512209C - CE 39_2020 DSD-ICT
+\\corp\hk\Transition\DAT13\T&I\Projects\2514029A - CE15_2010 Cheung Chau & Tai O
+\\corp\hk\Transition\DAT13\T&I\Projects\2514074A - EMSD CE61-2016 TCSS for Kai Tak Tunnel & EHC
+\\corp\hk\Transition\DAT13\T&I\Projects\2514081A - OT Block Tuen Mun Hosp ITS
+\\corp\hk\Transition\DAT13\T&I\Projects\2514082A - OT Block TMH Various Systems
+\\corp\hk\Transition\DAT13\T&I\Projects\2514085A - NKIL6557 SOGO ELV
+\\corp\hk\Transition\DAT13\T&I\Projects\2514088A - Project Blue Excelsior ELV
+\\corp\hk\Transition\DAT13\T&I\Projects\2514095A - CLP CETS ICE
+\\corp\hk\Transition\DAT13\T&I\Projects\2514104A - HA Support Service CTR
+\\corp\hk\Transition\DAT13\T&I\Projects\2514109A - HKJC CRC2 (ICT & TRACKLIGHT)
+\\corp\hk\Transition\DAT13\T&I\Projects\2514111A - HA ITS TUEN MUN 29W CHC
+\\corp\hk\Transition\DAT13\T&I\Projects\2514112A - CE14 TMCA TCSS
+\\corp\hk\Transition\DAT13\T&I\Projects\2514113A - HA VARI. SYS. TUEN MUN 29W CHC
+\\corp\hk\Transition\DAT13\T&I\Projects\2514114A - TD171-2020 RENEW TD142CCTV SYS
+\\corp\hk\Transition\DAT13\T&I\Projects\2514118A - HA KCH FOR GROUPS A TO E
+\\corp\hk\Transition\DAT13\T&I\Projects\2514120A - HMRT LIGHTNING & EARTHING SYS
+\\corp\hk\Transition\DAT13\T&I\Projects\2514121A - HA ITS UCH & TKOH
+\\corp\hk\Transition\DAT13\T&I\Projects\2514122A - HA ITS FOR NAH
+\\corp\hk\Transition\DAT13\T&I\Projects\2514123A - CE56-2020 FFTS DAS
+\\corp\hk\Transition\DAT13\T&I\Projects\2514124A - CE53-2020 ABT&TCT TCSS REPL'T
+\\corp\hk\Transition\DAT13\T&I\Projects\2514125A - IOT CINGLEOT LOGISTICS CENTRE
+\\corp\hk\Transition\DAT13\T&I\Projects\2514126A - ICE FOR CONTRACT DC-2019-10
+\\corp\hk\Transition\DAT13\T&I\Projects\2514127A - HKJC DD LED TRACKLIGHT HV&STRC
+\\corp\hk\Transition\DAT13\T&I\Projects\2514129A - PROJECT BLUE - ICT & DST
+\\corp\hk\Transition\DAT13\T&I\Projects\2514130A - HKJC DD E&M & C&S LED HV&STRC
+\\corp\hk\Transition\DAT13\T&I\Projects\2514132A - HA AMR FOR GH
+\\corp\hk\Transition\DAT13\T&I\Projects\2514134A - HA ITS FOR KCH
+\\corp\hk\Transition\DAT13\T&I\Projects\2514136A - CE31-2021 LRT TCSS REPLACEMENT
+\\corp\hk\Transition\DAT13\T&I\Projects\2514137A - HA ITS FOR QMH NEW BLOCK
+\\corp\hk\Transition\DAT13\T&I\Projects\2514141A - HA - EQPT & SYS LAI KING BLDG
+\\corp\hk\Transition\DAT13\T&I\Projects\2514143A - HKBU PMO FOR ICT DEPLOY - JCCC
+\\corp\hk\Transition\DAT13\T&I\Projects\2514152A - HA UCH LOGISTICS MGT SOLN
+\\corp\hk\Transition\DAT13\T&I\Projects\2514155A - HKSTP - SMART FM SYSTEM
+\\corp\hk\Transition\DAT13\T&I\Projects\2514161A - HA - IP PABX FOR HA IT&HI
+\\corp\hk\Transition\DAT13\T&I\Projects\2514171A - HA ITS CHESHIRE HOME
+\\corp\hk\Transition\DAT13\T&I\Projects\2514515E - AUTOMATED CARPARK A_ICT
+\\corp\hk\Transition\DAT13\T&I\Projects\2520313D - T&I ICT-CMI HK2DC
+\\corp\hk\Transition\DAT13\T&I\Projects\2523247D - KTIL240 WIREDSCORE SMARTSCORE
+\\corp\hk\Transition\DAT13\T&I\Projects\2535615C - P&T - TAI PO EDUHK AV&IT
+\\corp\hk\Transition\DAT13\T&I\Projects\2538001B - Tai Lam Tunnel R3CPS Maintenance Audit 2022
+\\corp\hk\Transition\DAT20\Projects2\2511149B - TKO DESALINATION PLANT (ICT)
+\\corp\hk\Transition\DAT20\Projects2\2511195B - 18WSD21 PUI O RAW WPS - ICE_EL
+\\corp\hk\Transition\DAT20\Projects2\2512176C - CE29_2017 BRAEMAR HILL (ICT)
+\\corp\hk\Transition\DAT20\Projects2\2512247B - CE352022 FANLING GOLF ICT
+\\corp\hk\Transition\DAT20\Projects2\2512252B - CE322023 RELOCATE WHCAB ICT-I
+\\corp\hk\Transition\DAT20\Projects2\2512255B - 2KS PUBLIC LIGHTING - ICT
+\\corp\hk\Transition\DAT20\Projects2\2514057A
+\\corp\hk\Transition\DAT20\Projects2\2514065A - MAI PO NATURE RESERVE UPGRADE
+\\corp\hk\Transition\DAT20\Projects2\2514147A - HA - NAH SMART BIOMEDICAL EQP
+\\corp\hk\Transition\DAT20\Projects2\2514148A - HA ITS FOR PMH & LKB
+\\corp\hk\Transition\DAT20\Projects2\2514150A - HA ITS FOR NDCHC
+\\corp\hk\Transition\DAT20\Projects2\2514154A - HA ITS FOR YAN CHAI HOSPITAL
+\\corp\hk\Transition\DAT20\Projects2\2514156A - CE42-2022 MHS FOR HKP AMC
+\\corp\hk\Transition\DAT20\Projects2\2514157A - CE59 RENEWAL OF TD142 - D&C
+\\corp\hk\Transition\DAT20\Projects2\2514158A - HMRT TOWER ROOF LPS
+\\corp\hk\Transition\DAT20\Projects2\2514159A - NAN FUNG - AIRSIDE SMARTSCORE
+\\corp\hk\Transition\DAT20\Projects2\2514162A - FS LED REPLACEMENT MK STADIUM
+\\corp\hk\Transition\DAT20\Projects2\2514163A - HA ITS FOR TSWCHC
+\\corp\hk\Transition\DAT20\Projects2\2514164A - TSWH RTLS
+\\corp\hk\Transition\DAT20\Projects2\2514165A - HA ITS FOR GH REDEVELOPMENT
+\\corp\hk\Transition\DAT20\Projects2\2514166A - HA PABX FOR TWH
+\\corp\hk\Transition\DAT20\Projects2\2514167A - SOTHEBY - AV FOR CHARTER HOUSE
+\\corp\hk\Transition\DAT20\Projects2\2514169A - JULONG BAY SMART CITY CONCEPT
+\\corp\hk\Transition\DAT20\Projects2\2514170A - ICS FOR CKR TUNNEL
+\\corp\hk\Transition\DAT20\Projects2\2514172A - HA ELV FOR NAH AT KAI TAK
+\\corp\hk\Transition\DAT20\Projects2\2514173A - DIGITAL TWIN FOR JOINT CAVERN
+\\corp\hk\Transition\DAT20\Projects2\2514174A - HA OLMH AMR
+\\corp\hk\Transition\DAT20\Projects2\2514175A - EMSD - BACNET & SEMANTIC AI
+\\corp\hk\Transition\DAT20\Projects2\2514176A - DC202312 ST CAVERN VENTILATION
+\\corp\hk\Transition\DAT20\Projects2\2514177A - CE46-2023 TSC HKI & SCATS–DC
+\\corp\hk\Transition\DAT20\Projects2\2514178A - HA CMC ITS
+\\corp\hk\Transition\DAT20\Projects2\2514179A - EPD IT Setup for TKO JUB
+\\corp\hk\Transition\DAT20\Projects2\2514181A - CE28 TCT TUNNEL LGT SYSTEM
+\\corp\hk\Transition\DAT20\Projects2\2514182A - NAH ELV ASSESSMENT FOR AV
+\\corp\hk\Transition\DAT20\Projects2\2514183A - HA KWH AMR
+\\corp\hk\Transition\DAT20\Projects2\2514184A - CE692023 INTELLIGENT JC D&C
+\\corp\hk\Transition\DAT20\Projects2\2514185A - HA ITS FOR PWH
+\\corp\hk\Transition\DAT20\Projects2\2514186A - HA ITS FOR NLTH
+\\corp\hk\Transition\DAT20\Projects2\2514187A - HA ITS for PYNEH
+\\corp\hk\Transition\DAT20\Projects2\2514188A - REVIEW OF CLP POWER SUPPLY SYS
+\\corp\hk\Transition\DAT20\Projects2\2514901A - TD CE50 RSS
+\\corp\hk\Transition\DAT20\Projects2\2520701A - CE31-2021(TT) RSS
+\\corp\hk\Transition\DAT20\Projects2\2538044B - ND202408FANLING NORTH SITE ICT
+\\corp\hk\Transition\DAT20\Projects2\WH67901A - HKSI SMART BLDG TECH & FM
+\\corp\hk\Transition\DAT20\Projects2\WH67902A - WKCDA - VMS DESIGN
+\\corp\hk\Transition\DAT13\T&I\Bidding\Proposal\MEP
