@@ -1,2 +1,0 @@
-C:\temp\PowerShell(using)>node server.js
-Server running at http://localhost:3000

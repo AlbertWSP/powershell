@@ -59,35 +59,36 @@ $obj=get-adobject -filter {mail -eq $ObjectID -or samaccountname -eq $ObjectID} 
 if($obj.objectClass -eq "user")
 {
 	write-host "###### Basic Info ###### " -ForegroundColor Cyan
-
-	get-aduser -identity $obj.samaccountname -Properties * | Select-Object DisplayName, 
-    @{Label="LastName";Expression={$_.sn}}, 
-    @{Label="FirstName";Expression={$_.GivenName}}, sAMAccountName, 
+	
+get-aduser -identity $obj.samaccountname -Properties * | Select-Object `
+    DisplayName,
+    @{Label="LastName";Expression={$_.sn}},
+    @{Label="FirstName";Expression={$_.GivenName}},
+    sAMAccountName,
     @{Label="UPN Logon";Expression={$_.userPrincipalName}},
-    @{Label="FullName";Expression={$_.Name}}, Mail,Description, 
-    @{Label="ExpireDate";Expression={[datetime]::FromFileTime($_.accountExpires)}},Enabled,
-    @{Label="EmployeeType";Expression={$_.EmployeeType}},
+    @{Label="FullName";Expression={$_.Name}},
+    Mail,
+    @{Label="TelephoneNumber";Expression={$_.telephoneNumber}},
     @{Label="JobTitle";Expression={$_.title}},
     @{Label="Department";Expression={$_.department}},
-    @{Label="TelephoneNumber";Expression={$_.telephoneNumber}},
-    homePhone, 
-    extensionAttribute1, 
+    Description,
+    @{Label="ExpireDate";Expression={[datetime]::FromFileTime($_.accountExpires)}},
+    Enabled,
+    @{Label="EmployeeType";Expression={$_.EmployeeType}},
+    extensionAttribute1,
     extensionAttribute4,
     extensionAttribute5,
-    extensionAttribute9, 
-    extensionAttribute11, 
+    extensionAttribute9,
+    extensionAttribute11,
     extensionAttribute12,
-    @{Label="LogonScript";Expression={$_.scriptPath}}, 
+    @{Label="LogonScript";Expression={$_.scriptPath}},
     @{Label="OU";Expression={$_.distinguishedName}},
-    @{Label="msExchUMDtmfMap";Expression={$_.msExchUMDtmfMap}},proxyAddresses  | format-list
+    @{Label="msExchUMDtmfMap";Expression={$_.msExchUMDtmfMap}},
+    proxyAddresses | Format-List
 
-	#$obj | select DisplayName, @{Label="LastName";Expression={$_.sn}}, @{Label="FirstName";Expression={$_.GivenName}}, sAMAccountName,@{Label="FullName";Expression={$_.Name}}, Mail,Description, @{Label="ExpireDate";Expression={[datetime]::FromFileTime($_.accountExpires)}},Enabled,extensionAttribute1, extensionAttribute9, extensionAttribute11, @{Label="LogonScript";Expression={$_.scriptPath}}, @{Label="OU";Expression={$_.distinguishedName}} | format-list 
-	#Get-ADPrincipalGroupMembership -Identity $obj.samaccountname | select @{Label="Member of";Expression={$_.name}} | out-host
 
 	write-host "###### Member of ###### " -ForegroundColor Cyan
 
-    #Get-ADPrincipalGroupMembership is not working normally in Win11
-	#Get-ADPrincipalGroupMembership -Identity $obj.samaccountname | Select-Object @{Label="Member of";Expression={$_.name}} | format-wide -autosize
 
     $Groupmembers=(Get-Aduser $obj.samaccountname -Properties MemberOf | Select-Object MemberOf).MemberOf.Replace('\','')
     $Groupmembers = $Groupmembers | Sort-Object
@@ -103,15 +104,30 @@ if($obj.objectClass -eq "user")
 
     $today=Get-Date -Format "yyyyMMddHHmm"
     
-    [System.Reflection.Assembly]::LoadWithPartialName(“System.windows.forms”) | Out-Null
+    #[System.Reflection.Assembly]::LoadWithPartialName("System.windows.forms") | Out-Null
+    Add-Type -AssemblyName System.Windows.Forms
     $SaveFileDialog = New-Object System.Windows.Forms.SaveFileDialog
     $SaveFileDialog.initialDirectory = [Environment]::GetFolderPath('Desktop')
-    $SaveFileDialog.filter = “PNG file (*.PNG)| *.PNG”
+    $SaveFileDialog.filter = "PNG file (*.PNG)| *.PNG"
     $SaveFileDialog.title = "Save screenshot to a PNG file..."
     $SaveFileDialog.filename = $ObjectID + "_" + $today
-    $R=$SaveFileDialog.ShowDialog()
+    #$R=$SaveFileDialog.ShowDialog()
     
-    if($R -eq "OK")
+    $TopMostForm = New-Object System.Windows.Forms.Form -Property @{
+        TopMost = $true
+        ShowInTaskbar = $false
+        WindowState = 'Minimized'
+    }
+
+    try {
+        $R = $SaveFileDialog.ShowDialog($TopMostForm)
+    }
+    finally {
+        $TopMostForm.Dispose()
+    }
+
+    
+    if ($R -eq [System.Windows.Forms.DialogResult]::OK)
     {
         TakeScreenshot -ObjectID $SaveFileDialog.filename
     }

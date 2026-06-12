@@ -1,3 +1,0 @@
-1. " email_list.txt " input your email list, first email user your email, because the first capture screen is not fit the size.
-2. right click the "read_andtakeScreenShot.ps1" run as powershell.
-3. the result will save at same path of "read_andtakeScreenShot.ps1"

@@ -1,1 +1,0 @@
-﻿New-Item -Path "\\51hmc43\c$\temp" -Name "test1" -ItemType Directory

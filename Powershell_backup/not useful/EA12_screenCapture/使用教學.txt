@@ -1,2 +1,0 @@
-1. in the text file " email_list.txtg" , the 1,2,3, email input you email, after email is the user's email.
-2. run the EA12_screenCapture.ps1

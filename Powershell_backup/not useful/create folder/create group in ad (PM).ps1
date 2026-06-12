@@ -1,3 +1,0 @@
-﻿New-ADGroup -Name "GRP-FSS-HKKWN200-T&I-2514177A-PM" -GroupScope Universal -Path "OU=Security,OU=Groups,OU=HK,OU=WSPObjects,DC=CORP,DC=pbwan,DC=net"
-New-ADGroup -Name "GRP-FSU-HKKWN200-T&I-2514177A-PM" -GroupScope Universal -Path "OU=Security,OU=Groups,OU=HK,OU=WSPObjects,DC=CORP,DC=pbwan,DC=net"
-Add-ADGroupMember -Identity "GRP-FSS-HKKWN200-T&I-2514177A-PM" -Members "GRP-FSU-HKKWN200-T&I-2514177A-PM"

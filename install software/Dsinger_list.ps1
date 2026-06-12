@@ -25,24 +25,24 @@ $loadButton.Text = "Load from File"
 $loadButton.Location = New-Object System.Drawing.Point(120, 125)
 $loadButton.Size = New-Object System.Drawing.Size(100, 23)
 $loadButton.Add_Click({
-    $openFileDialog = New-Object System.Windows.Forms.OpenFileDialog
-    $openFileDialog.Filter = "Text files (*.txt)|*.txt|All files (*.*)|*.*"
-    $openFileDialog.InitialDirectory = [Environment]::GetFolderPath("Desktop")
+        $openFileDialog = New-Object System.Windows.Forms.OpenFileDialog
+        $openFileDialog.Filter = "Text files (*.txt)|*.txt|All files (*.*)|*.*"
+        $openFileDialog.InitialDirectory = [Environment]::GetFolderPath("Desktop")
     
-    if ($openFileDialog.ShowDialog() -eq 'OK') {
-        try {
-            $textBoxHostName.Text = Get-Content -Path $openFileDialog.FileName -Raw
+        if ($openFileDialog.ShowDialog() -eq 'OK') {
+            try {
+                $textBoxHostName.Text = Get-Content -Path $openFileDialog.FileName -Raw
+            }
+            catch {
+                [System.Windows.Forms.MessageBox]::Show("Error reading file: $_", "Error", [System.Windows.Forms.MessageBoxButtons]::OK, [System.Windows.Forms.MessageBoxIcon]::Error)
+            }
         }
-        catch {
-            [System.Windows.Forms.MessageBox]::Show("Error reading file: $_", "Error", [System.Windows.Forms.MessageBoxButtons]::OK, [System.Windows.Forms.MessageBoxIcon]::Error)
-        }
-    }
-})
+    })
 $form.Controls.Add($loadButton)
 
 # Create checkboxes
 $checkBox1 = New-Object System.Windows.Forms.CheckBox
-$checkBox1.Text = "DSignerV1.3.6"
+$checkBox1.Text = "DSignerV1.3.9"
 $checkBox1.Location = New-Object System.Drawing.Point(10, 160)
 $form.Controls.Add($checkBox1)
 
@@ -57,8 +57,8 @@ $okButton = New-Object System.Windows.Forms.Button
 $okButton.Text = "OK"
 $okButton.Location = New-Object System.Drawing.Point(100, 280)
 $okButton.Add_Click({
-    $form.Close()
-})
+        $form.Close()
+    })
 $form.Controls.Add($okButton)
 
 # Show the form
@@ -70,7 +70,7 @@ $option1Enabled = $checkBox1.Checked
 $option2Enabled = $checkBox2.Checked
 
 # Define the setup file paths and destination paths
-$setupFilePath1 = "\\bbp2g43\share_g$\software\Setup (DSigner) v1.3.7.exe"
+$setupFilePath1 = "\\corp\hk\Transition\DAT18\Kits\Software\Engineering\DSigner\Setup (DSigner) v1.3.9.exe"
 $setupFilePath2 = "\\corp\hk\Transition\DAT18\Kits\Software\Engineering\PDF Xchange Editor\PDF-Xchange Editor V10.msi"
 
 # Function to perform the setup actions
@@ -105,12 +105,12 @@ function Perform-Setup {
 $results = @()
 if ($option1Enabled) {
     foreach ($hostName in $hostNames) {
-        $destinationPath1 = "\\$hostName\C$\temp\Setup (DSigner) v1.3.7.exe"
+        $destinationPath1 = "\\$hostName\C$\temp\Setup (DSigner) v1.3.9.exe"
         $success = Perform-Setup -hostName $hostName `
-                               -setupFilePath $setupFilePath1 `
-                               -destinationPath $destinationPath1 `
-                               -setpath "C:\temp\Setup (DSigner) v1.3.7.exe" `
-                               -commandLine "/VERYSILENT /NORESTART"
+            -setupFilePath $setupFilePath1 `
+            -destinationPath $destinationPath1 `
+            -setpath "C:\temp\Setup (DSigner) v1.3.9.exe" `
+            -commandLine "/VERYSILENT /NORESTART"
         
         $results += "PC $hostName : DSigner $(if ($success) {'Success'} else {'Failed'})"
     }
@@ -120,10 +120,10 @@ if ($option2Enabled) {
     foreach ($hostName in $hostNames) {
         $destinationPath2 = "\\$hostName\C$\temp\PDF-Xchange Editor V10.msi"
         $success = Perform-Setup -hostName $hostName `
-                               -setupFilePath $setupFilePath2 `
-                               -destinationPath $destinationPath2 `
-                               -setpath "C:\temp\PDF-Xchange Editor V10.msi" `
-                               -commandLine "/quiet /norestart"
+            -setupFilePath $setupFilePath2 `
+            -destinationPath $destinationPath2 `
+            -setpath "C:\temp\PDF-Xchange Editor V10.msi" `
+            -commandLine "/quiet /norestart"
         
         $results += "PC $hostName : PDF-Xchange $(if ($success) {'Success'} else {'Failed'})"
     }
